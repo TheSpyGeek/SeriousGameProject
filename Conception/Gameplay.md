@@ -8,9 +8,9 @@ Ce jeu sera un jeu d'action / exploration en 2D vue de dessus à la manière d'u
 
 L'avatar du joueur sera représenté par un éboueur qui se battra avec une pince à ramasser les déchets et devra combattre les ennemis de manière intelligente : d'abord les assommer avec la pince puis en fonction du déchet le lancer dans la bonne poubelle associé pour l'achevé. On peut imaginer plusieurs combinaisons de faiblesses :
 
-- **Exemple d'ennemis** : Banane entouré de plastique => on utilise d'abord la poubelle jaune pour éliminer le plastique puis la poubelle bleu pour éliminer l'organique.
+- **Exemple d'ennemis** : Banane entourée de plastique => on utilise d'abord la poubelle jaune pour éliminer le plastique puis la poubelle bleu pour éliminer l'organique.
 
-A chaque fois qu'un boss sera vaincu l'état du monde s'améliorera un petit peu, à ce moment là des informations seront transmis au joueurs (Taux d’émission de CO2 des avions, Les problème sous-jacents qui ont permis à la situation de dégénérer...).
+A chaque fois qu'un boss sera vaincu l'état du monde s'améliorera un petit peu, à ce moment là des informations seront transmis au joueurs (Taux d’émission de CO2 des avions, Les problèmes sous-jacents qui ont permis à la situation de dégénérer...).
 
 Le joueur remarquera que la situation du monde s'améliore par le changement des assets qui composent le décors.
 
@@ -27,7 +27,7 @@ Le joueur remarquera que la situation du monde s'améliore par le changement des
 
 ## Idées pour le jeu
 
-- Personnage punis si il pollue trop
+- Personnage puni si il pollue trop
 - Il pourra observer d'autre personnage dans le jeux mourir à cause du dérèglement du climat.
   - mourir à cause de la pollution 
   - mourir à cause de maladies due au traitement des cultures avec des pesticides
