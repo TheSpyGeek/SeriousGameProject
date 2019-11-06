@@ -14,15 +14,19 @@
 
    1. **Game Concept**
 
-   2. **Genre**
+   2. **Genre** :  Action aventure
 
    3. **Target Audience**
 
-      Le public visé sont les élèves de primaires et collèges du CE1 à la 6ème.
+      * Personnes sensible à l'Ecologie qui veulent en apprendre plus sur ce sujet la tout en s'amusant
 
-   4. **Game Flow Summary**
+      * Personnes sensible à l'Ecologie qui veulent sensibiliser leur entourage de manière ludique
 
-   5. **Look and Feel**
+   4. **Game Flow Summary** : 
+
+      Le joueur contrôle un personnage principal. Qui peut se déplacer dans 4 directions. Il peut intéragir  avec des NPC dans le monde. Menu (options, inventaire, mini-map)
+
+   5. **Look and Feel** : Style cell-shading => Zelda Wind Waker
 
       
 
@@ -30,22 +34,30 @@
 
    1. Gameplay
 
-      1. Game Progression
+      1. **Game Progression** : 
+
+         ​	Le joueur débloque une mécanique dans un donjon afin de vaincre des nouveaux déchets qu'il n'avait jamais rencontré avant
 
       2. **Mission/challenge Structure**
 
-         Machine à phrase : minijeu
+         Plusieurs donjon pour arriver à la fin du jeu
+
+         Boss à la fin des donjons
 
       3. **Puzzle Structure**
 
-      4. **Objectives**
+      4. **Objectives** : 
 
-      5. **Play Flow**
+         Rendre le monde moins pollué en le nettoyant étape par étape (cf: Donjon)
+
+      5. **Play Flow** :
+
+         Le joueur débute avec des mécaniques simples (exemple: juste poser un déchet dans une poubelle). Plus l'histoire avance plus le joueur débloque des élements de gameplay (exemple: compacter, mettre au composte, ...) 
 
    2. Mechanics
 
-      1. Physics
-      2. Movement in the game
+      1. **Physics** : Il y a un système de lancer d'objet, le énemis sont projeté après avoir pris un coup
+      2. **Movement in the game** : mouvement simple quadri-directionnel
       3. Objects
       4. Actions
       5. Combat
