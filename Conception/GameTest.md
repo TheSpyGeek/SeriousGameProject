@@ -59,7 +59,7 @@
       1. **Physics** : Il y a un système de lancer d'objet, les ennemis sont projetés après avoir pris un coup
       2. **Movement in the game** : mouvement simple quadri-directionnel + diagonales
       3. **Objects** : pour rammasser un objet le joueur doit s'approcher de cet objet et doit appuyer sur un bouton E.
-      4. **Actions** : rammasser des déchets, attaquer un mob (déchets vivants), vider ses poubelles
+      4. **Actions** : rammasser des déchets, attaquer un mob (déchets vivants), vider ses poubelles, faire des roulades
       5. **Combat** le joueur possède plusieurs armes, plus ou moins efficace selon le type de déchets (ennemis), lancer des objets (exemple: déchets, rocher)
       6. **Economy**
       7. **Screen Flow** : la caméra suit le personnage en vue du dessus. Elle se bloque sur les coins de la map. Les donjons nécessite un chargement du coup un changement d'écran.
@@ -100,17 +100,50 @@
 
 5. ## Levels
 
-   1. Levels
-   2. Training Level
+   1. **Levels** :
+
+      * Le monde évolue à chaque fois qu'un donjon est terminé par le joueur. Exemple (après le premier donjon, des poubelles de tri apparaissent dans le village)
+
+      * Premier donjon : lier au tri séléctif. Le personnage apprend à trier ses déchets, il possède 2 poubelles (sur lui, lié à son inventaire avec un nombre limité de place) à ce moment la du jeu. Il doit relancer l'usine de recyclage des déchets. Le donjon est composé principalement de déchets en carton, papier, boite de conserve, aluminium, verre, ...
+      * Deuxième donjon : Arrêter le traitement des terres avec des pesticides chimiques. Donjon composé principalement de plantes que l'on peut battre qu'en les traitants avec des pesticides bio.
+      * Troisième donjon: le joueur doit enlever le plastique présent dans l'eau
+
+   2. **Training Level** : 
+
+      Le grand père vous donne comme mission de nettoyer sa maison.
 
    
 
 6. ## Interface
 
-   1. Visual System
-   2. Control System
-   3. Audio, music, sound effect
-   4. Help System
+   1. **Visual System** :
+
+      * la vie du personnage représentée avec des pommes
+      * le taux de remplissement des sacs personels
+      * l'objet tenu en main par le personnage
+      * Inventaire :
+        * le taux de remplissement des sacs personels
+        * la liste des outils que le joueur possède
+        * Carte du monde (mise à jour selon les zones explorées)
+
+   2. **Control System** : 
+
+      * Boutons de déplacement (ZQSD, Stick manette)
+      * Bouton USE (E, X sur manette)
+      * Bouton USE Outil (Souris ou  flèche directionnel, stick analogique)
+      * Bouton Roulade (ESPACE, A sur Manette)
+      * Bouton Pause (Echap, start sur Manette)
+      * Bouton inventaire (TAB, Select sur Manette)
+
+   3. **Audio, music, sound effect** :
+
+      Music : style retro
+
+      * assez rapide en combat  (évolutive).
+      * assez calme en temps normal
+      * Une musique par donjon
+
+   4. **Help System** : 
 
    
 
