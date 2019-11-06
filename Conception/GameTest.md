@@ -56,39 +56,45 @@
 
    2. Mechanics
 
-      1. **Physics** : Il y a un système de lancer d'objet, le énemis sont projeté après avoir pris un coup
-      2. **Movement in the game** : mouvement simple quadri-directionnel
-      3. Objects
-      4. Actions
-      5. Combat
-      6. Economy
-      7. Screen Flow
+      1. **Physics** : Il y a un système de lancer d'objet, les ennemis sont projetés après avoir pris un coup
+      2. **Movement in the game** : mouvement simple quadri-directionnel + diagonales
+      3. **Objects** : pour rammasser un objet le joueur doit s'approcher de cet objet et doit appuyer sur un bouton E.
+      4. **Actions** : rammasser des déchets, attaquer un mob (déchets vivants), vider ses poubelles
+      5. **Combat** le joueur possède plusieurs armes, plus ou moins efficace selon le type de déchets (ennemis), lancer des objets (exemple: déchets, rocher)
+      6. **Economy**
+      7. **Screen Flow** : la caméra suit le personnage en vue du dessus. Elle se bloque sur les coins de la map. Les donjons nécessite un chargement du coup un changement d'écran.
 
-   3. Game Options
+   3. **Game Options** :
 
-   4. Replaying  and Saving
+      Difficulté (Easy, medium, hard, no save mod) : affecte le nombre de point de vie des ennemis et les dégats que le joueur encaisse.
 
-   5. Cheats and Easter Eggs
+   4. **Replaying  and Saving** : 
+
+      Le joueur peut sauvegarder à tout moment mais au chargement du jeu, le personnage commencera à la dernière porte (chargement) passé.
+
+   5. **Cheats and Easter Eggs** :  We will see later
 
       1. Cheats
 
       2. Easter Eggs
 
-         Ki-eski : référence à la question "Qui est-ce qui ?"
-
-         Eperluette : &
-
-         Circonflexe : ^
-
-   
-
 4. ## Story, Settings and Character
 
-   1. Story and Narrative
-   2. Game World
-      1. General look and fell of world
-      2. Ki-eski :  n'ont aucune intelligence à part du texteAreas
-   3. Characters
+   1. **Story and Narrative** :
+
+      ​	L'histoire se déroule dans un petit village "EcoTree". Le personnage principal en a marre de toute la polution et des déchets partout dans la ville. Il va donc sensibiliser les gens à l'écologie et partir s'attaquer aux gros problèmes dans ce monde (le tri, les gaz à effet de serre,  ...)
+
+   2. **Game World** : 
+
+      Il y  a un village qui est central dans le monde. Il y a plusieurs donjon correspondant aux différentes zones du jeu => problèmatique de l'écologie.
+
+   3. **Characters** : 
+
+      **Personnage principal** : il parle aux habitants, il est plutot jeune, vacciné et insouciant.
+
+      **NPC** : Il y a un medecin, un maire, un fermier (possède un bac à composte), un réparateur, une école. 
+
+      Des animaux dans la ville.
 
    
 
@@ -114,31 +120,23 @@
 
    2. Non-combat and Friendly Characters
 
-      Phébus, Théo, Capucine, Ki-eski :  n'ont aucune intelligence à part du texte
-
-      Circonflexe aussi
-
-      Jupette aussi
-
-      Prépo & Zition
-
-      Loyal
-
-      
-
    3. Support AI
 
    
 
 8. ## Technical
 
-   1. Target Hardware
+   1. **Target Hardware** : 
 
-      Les écrans tactiles comme les téléphones Android et Apple ou les tablettes tactiles Apple / Samsung, etc ...
+      PC, 
 
-   2. Development hardware and software, including Game Engine
+   2. **Development hardware and software, including Game Engine** : 
 
-   3. Network requirements
+      Unity Engine
+
+   3. **Network requirements** : 
+
+      Internet n'est pas nécessaire pour jouer
 
    
 
