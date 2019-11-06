@@ -36,7 +36,20 @@
 
       1. **Game Progression** : 
 
-         ​	Le joueur débloque une mécanique dans un donjon afin de vaincre des nouveaux déchets qu'il n'avait jamais rencontré avant
+         ​	Le joueur débloque une mécanique dans un donjon afin de vaincre des nouveaux déchets qu'il n'avait jamais rencontré avant. Le joueur doit comprendre le dilemne lié à l'écologie.
+
+         Plus le monde évolue en havre écologique => **Avidité**
+
+         * plus les prix du marchant sont élevés
+         * des gens quittent la ville => maisons en ruine/abandonnées
+         * on importe plus de nourriture
+         * des gens sont au chomage
+
+         A contrario :
+
+         * l'agriculture repart
+         * les gens se sentent mieux car il y a moins de pollution => heureux
+         * Les aliments rendent + de vie
 
       2. **Mission/challenge Structure**
 
@@ -82,7 +95,13 @@
 
    1. **Story and Narrative** :
 
-      ​	L'histoire se déroule dans un petit village "EcoTree". Le personnage principal en a marre de toute la polution et des déchets partout dans la ville. Il va donc sensibiliser les gens à l'écologie et partir s'attaquer aux gros problèmes dans ce monde (le tri, les gaz à effet de serre,  ...)
+      ​	L'histoire se déroule dans un petit village "EcoTree". 
+
+      Au début du jeu le personnage va devoir se balader dans le village dans lequel il y a **énormement** de déchets avec un air très pollué.
+
+      
+
+      Le personnage va alors se faire approcher par un petit être vert qui incarne la nature. Cet être va informer le joueur des problèmes climatiques. Le joueur  va donc essayer de faire changer les choses aidé par ce petit être. Il va s'attaquer aux gros problèmes dans ce monde (le tri, les gaz à effet de serre,  ...) qui détruisent le monde. Un de ses autres but est de sensibiliser les gens du village à l'écologie.
 
    2. **Game World** : 
 
@@ -141,9 +160,12 @@
 
       * assez rapide en combat  (évolutive).
       * assez calme en temps normal
+      * musique très calme dans le village
       * Une musique par donjon
 
    4. **Help System** : 
+
+      L'aide est matérialisée par un petit être vert qui incarne la nature. Qui nous donne des conseils pour la suite des évenements. 
 
    
 
