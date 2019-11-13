@@ -109,6 +109,11 @@
 
       **Dilemne** : 
 
+      ​	**Themes généraux** : 
+
+      	 * Economique
+      	 * Touristique
+
       1. Fermeture de la centrale à charbon : 
 
          **positif** : 
@@ -179,7 +184,7 @@
       * Deuxième donjon : Arrêter le traitement des terres avec des pesticides chimiques. Donjon composé principalement de plantes que l'on peut battre qu'en les traitants avec des pesticides bio.
       * Troisième donjon: le joueur doit enlever le plastique présent dans l'eau
 
-   2. **Training Level** : 
+   2. **Training Level** : Le grand père vous donne comme mission de nettoyer sa maison.Le grand père vous donne comme mission de nettoyer sa maison.
 
       Le grand père vous donne comme mission de nettoyer sa maison.
 
