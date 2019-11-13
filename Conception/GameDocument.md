@@ -101,70 +101,106 @@
 
       ​	L'histoire se déroule dans un petit village "EcoTree". 
 
-      Au début du jeu le personnage va devoir se balader dans le village dans lequel il y a **énormement** de déchets avec un air très pollué.
+      **Intro**:
 
-      polluéles 
+      Le personnage se reveille dans sa maison. Il lit un message (SMS ?) laissé par sa mère lui disant d'aller chez son grand-père. 
 
-      Le personnage va alors se faire approcher par un petit être vert qui incarne la nature. Cet être va informer le joueur des problèmes climatiques. Le joueur  va donc essayer de faire changer les choses aidé par ce petit être. Il va s'attaquer aux gros problèmes dans ce monde (le tri, les gaz à effet de serre,  ...) qui détruisent le monde. Un de ses autres but est de sensibiliser les gens du village à l'écologie.
+      (**Training Level**) Il va donc sortir et se diriger vers chez son grand père. Pour cela, il va traverser le village dans lequel il y a **énormement** de déchets et avec un air très pollué. Arrivé chez son grand père, il va discuté avec lui et se rendre compte que son grand père ne va pas bien du tout. Il tousse, a du mal à respirer et trouve que sa nourriture a un drôle de gout.
 
-      **Dilemne** : 
+      
 
-      ​	**Themes généraux** : 
+      Quand le PP (personnage principal) sort de la maison, il va entendre une voix. 
 
-      	 * Economique
-      	 * Touristique
+      * Tu as remarqué à quel point ton grand-père est malade?
+      * Hein!? Qui es-tu ? demande le PP
 
-      1. Fermeture de la centrale à charbon : 
+      * "Je suis la nature!" lui répond un petit être vert
 
-         **positif** : 
+      * Comment est ce possible?
 
-         * l'air est moins pollué
-           * les gens vont mieux
+      * Je me suis incarné en cet être car l'heure est grave et je devais agir. Mais ce n'est pas important. Tu as vu que ton grand père souffrais à cause de cette polution dans ton village?
+      
+   * Oui j'ai remarqué mais il n'est plus tout jeune c'est normal.
+      
+   * Ce n'est pas le seul regarde les habitants du village! Tu ne trouves pas qu'il y a des problèmes!? Si vous ne faites rien ton grand père va mourrir et les gens du village vont tomber gravement malade aussi.
+      
+      * Mais qu'est ce que je peux faire pour arrêter ça?
+      
+   * Rend toi à la centrale de charbon.
+      
+     
+      
+   "Transition (fondu au noir) pour se retrouver devant la centrale"
+      
+   * Regarde ce nuage de fumé. C'est ce qui rend tout le monde malade.
+      * Tu as raison je dois arrêter ça!
 
-         **negatif** : 
+      Phase de gameplay :
+      
+      Tutoriel du combat
 
-         * pleins de gens se retrouve au chomâge
-         * moins d'électricité
-           * installation de panneaux solaires qui attire moins de gens pour le tourisme
+      
 
-      2. Le tri
+      
+      
+   **Dilemne** : 
+      
+   ​	**Themes généraux** : 
+      
+   * Economique
+      * Touristique
 
-         **Avant** : Il y a une énormes décharges qui pollue la terre et l'eau du lac
+   1. Fermeture de la centrale à charbon : 
 
-         ​	=> les gens sont malades à cause des aliments 
+      **positif** : 
 
-         **positif** : 
+      * l'air est moins pollué
+        * les gens vont mieux
 
-         * la décharge a beaucoup diminuée de volume
-         * des poubelles de tri sont apparues
-         * crée des emplois
+      **negatif** : 
 
-         **negatif** : 
+      * pleins de gens se retrouve au chomâge
+      * moins d'électricité
+        * installation de panneaux solaires qui attire moins de gens pour le tourisme
 
-         * centrale de tri
-         * Argent public utilisé pour le tri (augmentation des taxes)
+   2. Le tri
 
-      3. Suppression des pesticides
+      **Avant** : Il y a une énormes décharges qui pollue la terre et l'eau du lac
 
-         **Avant** : 
+      ​	=> les gens sont malades à cause des aliments 
 
-         **positif** : 
+      **positif** : 
 
-         * les aliments sont de meilleurs qualité
-         * l'eau est plus potable
-         * moins de nourriture est importé
-         * les gens sont plus gentil
+      * la décharge a beaucoup diminuée de volume
+      * des poubelles de tri sont apparues
+      * crée des emplois
 
-         **negatif** : 
+      **negatif** : 
 
-         * moins de production
-         * les produits de traitement sont plus cher => les produits sont plus cher
+      * centrale de tri
+      * Argent public utilisé pour le tri (augmentation des taxes)
 
-   2. **Game World** : 
+   3. Suppression des pesticides
+
+      **Avant** : 
+
+      **positif** : 
+
+      * les aliments sont de meilleurs qualité
+      * l'eau est plus potable
+      * moins de nourriture est importé
+      * les gens sont plus gentil
+
+      **negatif** : 
+
+      * moins de production
+      * les produits de traitement sont plus cher => les produits sont plus cher
+
+   1. **Game World** : 
 
       Il y  a un village qui est central dans le monde. Il y a plusieurs donjon correspondant aux différentes zones du jeu => problèmatique de l'écologie.
 
-   3. **Characters** : 
+   2. **Characters** : 
 
       **Personnage principal** : il parle aux habitants, il est plutot jeune, vacciné et insouciant.
 
