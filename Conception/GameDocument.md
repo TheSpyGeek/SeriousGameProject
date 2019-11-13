@@ -70,9 +70,15 @@
    2. Mechanics
 
       1. **Physics** : Il y a un système de lancer d'objet, les ennemis sont projetés après avoir pris un coup
-      2. **Movement in the game** : mouvement simple quadri-directionnel + diagonales
+      2. **Movement in the game** : 
+         * mouvement simple quadri-directionnel + diagonales
+         * roulades
       3. **Objects** : pour rammasser un objet le joueur doit s'approcher de cet objet et doit appuyer sur un bouton E.
-      4. **Actions** : rammasser des déchets, attaquer un mob (déchets vivants), vider ses poubelles, faire des roulades
+      4. **Actions** : 
+         * rammasser des déchets 
+         * attaquer un mob (déchets vivants) 
+         * vider ses poubelles
+         * lancer des enemis
       5. **Combat** le joueur possède plusieurs armes, plus ou moins efficace selon le type de déchets (ennemis), lancer des objets (exemple: déchets, rocher)
       6. **Economy**
       7. **Screen Flow** : la caméra suit le personnage en vue du dessus. Elle se bloque sur les coins de la map. Les donjons nécessite un chargement du coup un changement d'écran.
@@ -81,15 +87,13 @@
 
       Difficulté (Easy, medium, hard, no save mod) : affecte le nombre de point de vie des ennemis et les dégats que le joueur encaisse.
 
-   4. **Replaying  and Saving** : 
+   4. **Replaying and Saving** : 
 
       Le joueur peut sauvegarder à tout moment mais au chargement du jeu, le personnage commencera à la dernière porte (chargement) passé.
 
    5. **Cheats and Easter Eggs** :  We will see later
 
-      1. Cheats
-
-      2. Easter Eggs
+      
 
 4. ## Story, Settings and Character
 
@@ -99,9 +103,57 @@
 
       Au début du jeu le personnage va devoir se balader dans le village dans lequel il y a **énormement** de déchets avec un air très pollué.
 
-      
+      polluéles 
 
       Le personnage va alors se faire approcher par un petit être vert qui incarne la nature. Cet être va informer le joueur des problèmes climatiques. Le joueur  va donc essayer de faire changer les choses aidé par ce petit être. Il va s'attaquer aux gros problèmes dans ce monde (le tri, les gaz à effet de serre,  ...) qui détruisent le monde. Un de ses autres but est de sensibiliser les gens du village à l'écologie.
+
+      **Dilemne** : 
+
+      1. Fermeture de la centrale à charbon : 
+
+         **positif** : 
+
+         * l'air est moins pollué
+           * les gens vont mieux
+
+         **negatif** : 
+
+         * pleins de gens se retrouve au chomâge
+         * moins d'électricité
+           * installation de panneaux solaires qui attire moins de gens pour le tourisme
+
+      2. Le tri
+
+         **Avant** : Il y a une énormes décharges qui pollue la terre et l'eau du lac
+
+         ​	=> les gens sont malades à cause des aliments 
+
+         **positif** : 
+
+         * la décharge a beaucoup diminuée de volume
+         * des poubelles de tri sont apparues
+         * crée des emplois
+
+         **negatif** : 
+
+         * centrale de tri
+         * Argent public utilisé pour le tri (augmentation des taxes)
+
+      3. Suppression des pesticides
+
+         **Avant** : 
+
+         **positif** : 
+
+         * les aliments sont de meilleurs qualité
+         * l'eau est plus potable
+         * moins de nourriture est importé
+         * les gens sont plus gentil
+
+         **negatif** : 
+
+         * moins de production
+         * les produits de traitement sont plus cher => les produits sont plus cher
 
    2. **Game World** : 
 
@@ -197,4 +249,4 @@
 
 9. ## Game Art
 
-   
+   ![Zelda](images/zelda.png)
