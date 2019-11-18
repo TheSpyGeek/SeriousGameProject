@@ -105,7 +105,7 @@
 
       Le personnage se reveille dans sa maison. Il lit un message (SMS ?) laissé par sa mère lui disant d'aller chez son grand-père. 
 
-      (**Training Level**) Il va donc sortir et se diriger vers chez son grand père. Pour cela, il va traverser le village dans lequel il y a **énormement** de déchets et avec un air très pollué. Arrivé chez son grand père, il va discuté avec lui et se rendre compte que son grand père ne va pas bien du tout. Il tousse, a du mal à respirer et trouve que sa nourriture a un drôle de gout.
+      (**Training Level**) Il va donc sortir et se diriger vers chez son grand père. Pour cela, il va traverser le village dans lequel il y a **énormement** de déchets et avec un air très pollué. Arrivé chez son grand père, il va discuter avec lui et se rendre compte que son grand père ne va pas bien du tout. Il tousse, a du mal à respirer et trouve que sa nourriture a un drôle de goût.
 
       
 
@@ -116,37 +116,44 @@
 
       * "Je suis la nature!" lui répond un petit être vert
 
-      * Comment est ce possible?
+      * Comment est-ce possible?
 
-      * Je me suis incarné en cet être car l'heure est grave et je devais agir. Mais ce n'est pas important. Tu as vu que ton grand père souffrais à cause de cette polution dans ton village?
+      * Je me suis incarné en cet être car l'heure est grave et je devais agir. Mais ce n'est pas important. Tu as vu que ton grand père souffrait à cause de cette pollution dans ton village?
       
    * Oui j'ai remarqué mais il n'est plus tout jeune c'est normal.
-      
+
+   (le PP avance jusqu'au village, quand il y arrive)
+
    * Ce n'est pas le seul regarde les habitants du village! Tu ne trouves pas qu'il y a des problèmes!? Si vous ne faites rien ton grand père va mourrir et les gens du village vont tomber gravement malade aussi.
-      
+     
       * Mais qu'est ce que je peux faire pour arrêter ça?
       
    * Rend toi à la centrale de charbon.
-      
      
-      
+     
+     
+
    "Transition (fondu au noir) pour se retrouver devant la centrale"
-      
-   * Regarde ce nuage de fumé. C'est ce qui rend tout le monde malade.
-      * Tu as raison je dois arrêter ça!
+
+   * Regarde ce nuage de fumé. C'est ce qui rend tout le monde malade. Cette fumé rend les dechets vivant ! 
+
+   ("cinématique" : les dechets prennent vie)
+
+   * Tu as raison je dois arrêter ça!
 
       Phase de gameplay :
-      
+
       Tutoriel du combat
 
       
 
       
-      
+
+
    **Dilemne** : 
-      
+
    ​	**Themes généraux** : 
-      
+
    * Economique
       * Touristique
 

@@ -12,7 +12,7 @@ Style rétro (mais pas 8bits 16bits) joyeux par moment, angoissant à d'autres  
 
 Utilisation d'instruments tels que drum kit, piano, guitare.  
 
-Il y aura plusieurs musiques les zones et selon les situations (musique  d'exploration, musique dans le village, musique durant combat, ...)
+Il y aura plusieurs musiques selon les zones et selon les situations (musique  d'exploration, musique dans le village, musique durant combat, ...)
 
 Premier donjon : Centrale à charbon
 
@@ -42,7 +42,7 @@ Certains bruitages seront enregistrés par nous même (exemple : coup porté, d�
 
 * fermeture de porte
 * prise de dégats du personnage
-* bruit de marche
+* bruit de marche (randomisation de volume)
   * herbe
   * terre
   * pavé
@@ -63,14 +63,14 @@ Certains bruitages seront enregistrés par nous même (exemple : coup porté, d�
 
 ###### Musique village 
 
-* calme (piano, guitare), paisible
+* calme (piano, guitare), paisible 
 * sans percussions
 * Quand le premier donjon est fini
   * ajout d'un instrument
 
 ###### Musique exploration 
 
-* flute
+* fluted
 * batterie douce
 * Si combat ou ennemi : 
   * batterie plus prononcé
@@ -79,6 +79,7 @@ Certains bruitages seront enregistrés par nous même (exemple : coup porté, d�
 ###### Musique premier donjon 
 
 * rythmée
+* randomisation pour les ponts musicaux par exemple (ajout de paramêtre)
 * ère industrielle => bruit de métal
 * Modification en combat :
   * ajout de basse assez rapide
