@@ -34,7 +34,7 @@ public class AttackScript : MonoBehaviour
 
 
     void OnTriggerStay(Collider other) {
-        if(Input.GetButton("Attack") && canAttack()) {
+        if(Input.GetButtonDown("Attack") && canAttack()) {
             lastimeAttack = Time.time;
             Health _health;
             if(other.gameObject.CompareTag("Enemy")) { // other.gameObject.tag == "Enemy"   allocates memory :) Thanks @Vexe :D
