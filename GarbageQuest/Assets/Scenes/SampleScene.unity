@@ -275,6 +275,7 @@ GameObject:
   - component: {fileID: 395488884}
   - component: {fileID: 395488885}
   - component: {fileID: 395488886}
+  - component: {fileID: 395488887}
   m_Layer: 10
   m_Name: Enemy
   m_TagString: Enemy
@@ -414,6 +415,19 @@ MonoBehaviour:
   matAlive: {fileID: 2100000, guid: bc7843fb9278e3b40adfdb71a15d7df7, type: 2}
   matDead: {fileID: 2100000, guid: 7f02b4164aca119459bd35e2ed7d570e, type: 2}
   _health: {fileID: 395488884}
+--- !u!114 &395488887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395488878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211d962dfa20cb34393c8832322a2bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canva: {fileID: 62994919}
 --- !u!1 &692121360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,8 +1490,9 @@ GameObject:
   - component: {fileID: 2089667507}
   - component: {fileID: 2089667508}
   - component: {fileID: 2089667509}
+  - component: {fileID: 2089667510}
   m_Layer: 9
-  m_Name: Attack
+  m_Name: ActionArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1524,6 +1539,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageDeal: 1
   attackspeed: 1
+--- !u!114 &2089667510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089667506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40de61b7166b1c647adf5063c0c8d83e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwForce: 6
 --- !u!1 &2116757715
 GameObject:
   m_ObjectHideFlags: 0
