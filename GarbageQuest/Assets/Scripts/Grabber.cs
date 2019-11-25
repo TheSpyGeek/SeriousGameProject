@@ -44,7 +44,7 @@ public class Grabber : MonoBehaviour
         } else if(Input.GetButtonDown("Use") && isGrabbing) {
             Throwable _throw;
             if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
-                _throw.throwObj(10.0f);
+                _throw.release();
                 isGrabbing = false;
             }
         }
