@@ -8,6 +8,9 @@ using UnityEngine;
 
 public class Grabber : MonoBehaviour
 {
+
+    public float throwForce = 6.0f;
+
     private Collider _collider;
 
     private bool isGrabbing;
@@ -45,6 +48,12 @@ public class Grabber : MonoBehaviour
             Throwable _throw;
             if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
                 _throw.release();
+                isGrabbing = false;
+            }
+        } else if(Input.GetButtonDown("Attack") && isGrabbing) {
+            Throwable _throw;
+            if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
+                _throw.throwObj(throwForce);
                 isGrabbing = false;
             }
         }

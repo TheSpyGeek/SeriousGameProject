@@ -9,12 +9,15 @@ public class Throwable : MonoBehaviour
     private bool grabbed;
     public GameObject canva;
 
+    private Rigidbody _rigid;
+
     private Transform backupParent;
 
     // Start is called before the first frame update
     void Start(){
         grabbed = false;
         backupParent = transform.parent;
+        _rigid = GetComponent<Rigidbody>();
     }
 
     
@@ -22,6 +25,7 @@ public class Throwable : MonoBehaviour
 
     public void beGrabbed(Transform t) {
         transform.parent = t;
+        _rigid.velocity = Vector3.zero;
         grabbed = true;
         canva.SetActive(false);
     }
@@ -30,15 +34,16 @@ public class Throwable : MonoBehaviour
         //
         grabbed = false;
         transform.parent = backupParent;
+        _rigid.velocity = Vector3.zero;
         canva.SetActive(true);
     }
 
     public void throwObj(float force) {
-        //
 
         grabbed = false;
         transform.parent = backupParent;
         canva.SetActive(true);
+        _rigid.velocity = transform.forward * force;
     }
 
 
