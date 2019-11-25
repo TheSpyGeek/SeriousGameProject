@@ -21,8 +21,10 @@ public class AttackScript : MonoBehaviour
     void Start()
     {
         _collider = GetComponent<Collider>();
+        lastimeAttack = Time.time;
     }
 
+    
 
 
     // si il peut ré attaquer en fonction de l'attack speed

@@ -20,6 +20,10 @@ public class displayHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textToFill.text = _health.currentHP + "/"+_health.nbHealthPoint;   
+        if(_health.isAlive()) {
+            textToFill.text = _health.getCurrentHealth() + "/" + _health.nbHealthPoint;
+        } else {
+            textToFill.text = "Grab it!";
+        }
     }
 }

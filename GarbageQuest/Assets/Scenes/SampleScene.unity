@@ -274,6 +274,7 @@ GameObject:
   - component: {fileID: 395488879}
   - component: {fileID: 395488884}
   - component: {fileID: 395488885}
+  - component: {fileID: 395488886}
   m_Layer: 10
   m_Name: Enemy
   m_TagString: Enemy
@@ -327,7 +328,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aff0cc0c630b9d443879f92226d8c0d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -384,7 +385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nbHealthPoint: 2
-  currentHP: 0
+  timeToRespawn: 0
 --- !u!114 &395488885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +399,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToFill: {fileID: 1653487788}
+--- !u!114 &395488886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395488878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc10b24e9f8961c49ab89e53f748aed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matAlive: {fileID: 2100000, guid: bc7843fb9278e3b40adfdb71a15d7df7, type: 2}
+  matDead: {fileID: 2100000, guid: 7f02b4164aca119459bd35e2ed7d570e, type: 2}
+  _health: {fileID: 395488884}
 --- !u!1 &692121360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,7 +1523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDeal: 1
-  attackspeed: 22
+  attackspeed: 1
 --- !u!1 &2116757715
 GameObject:
   m_ObjectHideFlags: 0

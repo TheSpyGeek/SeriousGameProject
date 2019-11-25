@@ -7,19 +7,25 @@ public class Health : MonoBehaviour
 
     public int nbHealthPoint;
 
+    private bool alive;
 
-    public int currentHP;
+    public float timeToRespawn;
+
+
+    private int currentHP;
 
     // Start is called before the first frame update
     void Start()
     {
         currentHP = nbHealthPoint;
+        alive = true;
     }
 
   
     public void checkHealth() {
         if(currentHP <= 0) {
-            Destroy(gameObject);
+            currentHP = 0;
+            alive = false;
         }
     }
 
@@ -29,5 +35,12 @@ public class Health : MonoBehaviour
         checkHealth();
     }
 
+    public int getCurrentHealth() {
+        return currentHP;
+    }
+
+    public bool isAlive() {
+        return alive;
+    }
 
 }
