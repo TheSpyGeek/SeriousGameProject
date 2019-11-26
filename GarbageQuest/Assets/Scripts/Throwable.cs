@@ -48,7 +48,7 @@ public class Throwable : MonoBehaviour
         grabbed = false;
         transform.parent = backupParent;
         canva.SetActive(true);
-        _rigid.velocity = transform.forward * force;
+        _rigid.AddForce(transform.forward * force);
     }
 
 
