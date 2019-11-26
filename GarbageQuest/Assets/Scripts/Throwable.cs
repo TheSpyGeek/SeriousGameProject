@@ -39,10 +39,7 @@ public class Throwable : MonoBehaviour
         canva.SetActive(true);
     }
 
-    private void Update() {
-        Debug.Log(transform.forward);
-    }
-
+  
     public void throwObj(float force) {
 
         grabbed = false;

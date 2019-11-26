@@ -14,6 +14,7 @@ public class Grabber : MonoBehaviour
     private Collider _collider;
 
     private bool isGrabbing;
+    private GameObject objGrabbed;
 
     // Start is called before the first frame update
     void Start()
@@ -21,16 +22,19 @@ public class Grabber : MonoBehaviour
         _collider = GetComponent<Collider>();
         isGrabbing = false;
     }
-
-
-    private void Update() {
-        if(Input.GetButton("Use")) {
-            Debug.Log("Use");
-        }
-    }
+   
 
 
     void OnTriggerStay(Collider other) {
+
+        // si l'objet est détruit par la poubelle
+        if(isGrabbing && objGrabbed == null) {
+            isGrabbing = false;
+            objGrabbed = null;
+            //Debug.Log("Destroyed");
+        }
+
+
         if(Input.GetButtonDown("Use") && !isGrabbing) {
             Health _health;
             Throwable _throw;
@@ -40,6 +44,7 @@ public class Grabber : MonoBehaviour
                     if(!_health.isAlive()) {
                         _throw.beGrabbed(transform);
                         isGrabbing = true;
+                        objGrabbed = other.gameObject;
                     }
                 }
             }
@@ -49,12 +54,14 @@ public class Grabber : MonoBehaviour
             if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
                 _throw.release();
                 isGrabbing = false;
+                objGrabbed = null;
             }
         } else if(Input.GetButtonDown("Attack") && isGrabbing) {
             Throwable _throw;
             if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
                 _throw.throwObj(throwForce);
                 isGrabbing = false;
+                objGrabbed = null;
             }
         }
 
