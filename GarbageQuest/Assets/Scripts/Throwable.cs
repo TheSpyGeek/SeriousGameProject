@@ -25,6 +25,7 @@ public class Throwable : MonoBehaviour
 
     public void beGrabbed(Transform t) {
         transform.parent = t;
+        transform.rotation = t.rotation;
         _rigid.velocity = Vector3.zero;
         grabbed = true;
         canva.SetActive(false);
@@ -36,6 +37,10 @@ public class Throwable : MonoBehaviour
         transform.parent = backupParent;
         _rigid.velocity = Vector3.zero;
         canva.SetActive(true);
+    }
+
+    private void Update() {
+        Debug.Log(transform.forward);
     }
 
     public void throwObj(float force) {
