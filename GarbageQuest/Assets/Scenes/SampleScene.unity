@@ -130,7 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 294489543}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 692121361}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Constru
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 919921391}
   - component: {fileID: 919921390}
   - component: {fileID: 919921389}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 1221904853}
   - component: {fileID: 1221904852}
   - component: {fileID: 1221904851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,12 +597,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 294489543}
     m_Modifications:
     - target: {fileID: 4228738939108758763, guid: 47f2e94b4c0da4a4f8903c99228084a7,
         type: 3}
       propertyPath: m_Name
       value: Poubelle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228738939108758763, guid: 47f2e94b4c0da4a4f8903c99228084a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4228738939108758743, guid: 47f2e94b4c0da4a4f8903c99228084a7,
         type: 3}
@@ -642,7 +647,7 @@ PrefabInstance:
     - target: {fileID: 4228738939108758743, guid: 47f2e94b4c0da4a4f8903c99228084a7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4228738939108758743, guid: 47f2e94b4c0da4a4f8903c99228084a7,
         type: 3}
@@ -658,6 +663,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228738939410159125, guid: 47f2e94b4c0da4a4f8903c99228084a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47f2e94b4c0da4a4f8903c99228084a7, type: 3}
@@ -791,7 +801,7 @@ GameObject:
   - component: {fileID: 1985688525}
   - component: {fileID: 1985688524}
   - component: {fileID: 1985688523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -906,7 +916,7 @@ GameObject:
   - component: {fileID: 2116757719}
   - component: {fileID: 2116757718}
   - component: {fileID: 2116757717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,6 +1029,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level
       objectReference: {fileID: 0}
+    - target: {fileID: 1035441848231009974, guid: a121737d6c760009abd23a290442852d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1035441848231008584, guid: a121737d6c760009abd23a290442852d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1073,6 +1088,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035441846451687527, guid: a121737d6c760009abd23a290442852d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035441847564558215, guid: a121737d6c760009abd23a290442852d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035441847253629679, guid: a121737d6c760009abd23a290442852d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035441848221670722, guid: a121737d6c760009abd23a290442852d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a121737d6c760009abd23a290442852d, type: 3}
@@ -1231,6 +1266,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poubelle
       objectReference: {fileID: 0}
+    - target: {fileID: 4228738939108758763, guid: 47f2e94b4c0da4a4f8903c99228084a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4228738939108758743, guid: 47f2e94b4c0da4a4f8903c99228084a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1285,6 +1325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228738939410159125, guid: 47f2e94b4c0da4a4f8903c99228084a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47f2e94b4c0da4a4f8903c99228084a7, type: 3}

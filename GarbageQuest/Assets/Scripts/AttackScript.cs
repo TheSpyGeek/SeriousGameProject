@@ -34,10 +34,14 @@ public class AttackScript : MonoBehaviour
 
 
     void OnTriggerStay(Collider other) {
+        if(other.tag == "Ground") {
+            return;
+        }
         if(Input.GetButtonDown("Attack") && canAttack()) {
             lastimeAttack = Time.time;
             Health _health;
-            if(other.gameObject.CompareTag("Enemy")) { // other.gameObject.tag == "Enemy"   allocates memory :) Thanks @Vexe :D
+            Debug.Log(other.name);
+            if(other.gameObject.CompareTag("Enemy")) { 
                 if(other.gameObject.TryGetComponent<Health>(out _health)) {
                     _health.getHit(damageDeal);
                 }
