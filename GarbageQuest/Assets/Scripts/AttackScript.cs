@@ -2,26 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(FieldOfView))]
 
 public class AttackScript : MonoBehaviour
 {
 
     public int damageDeal = 1;
-    public float attackspeed = 200;
+    public float attackspeed = 1;
 
     private float lastimeAttack = 0;
 
-    private Collider _collider;
-
-
+    private FieldOfView field;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        _collider = GetComponent<Collider>();
         lastimeAttack = Time.time;
+        field = GetComponent<FieldOfView>();
     }
 
     
@@ -32,22 +30,22 @@ public class AttackScript : MonoBehaviour
         return Time.time - lastimeAttack > attackspeed;
     }
 
-
-    void OnTriggerStay(Collider other) {
-        if(other.tag == "Ground") {
-            return;
-        }
-        if(Input.GetButtonDown("Attack") && canAttack()) {
+    private void Update() {
+        if(Input.GetButtonDown("Attack") && canAttack()){
             lastimeAttack = Time.time;
-            Health _health;
-            Debug.Log(other.name);
-            if(other.gameObject.CompareTag("Enemy")) { 
-                if(other.gameObject.TryGetComponent<Health>(out _health)) {
-                    _health.getHit(damageDeal);
+            List<Transform> objs = field.getListVisible();
+
+            for(int i=0; i<objs.Count; i++){
+                if(objs[i].gameObject.CompareTag("Enemy")){
+                    Health _health;
+                    if(objs[i].gameObject.TryGetComponent<Health>(out _health)) {
+                        if(_health.isAlive()){
+                            _health.getHit(damageDeal);
+                        }
+                    }
                 }
             }
         }
-        
     }
 
 
