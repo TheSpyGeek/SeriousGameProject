@@ -23,6 +23,11 @@ public class FieldOfView : MonoBehaviour {
 	public MeshFilter viewMeshFilter;
 	Mesh viewMesh;
 
+
+	public List<Transform> getListVisible(){
+		return visibleTargets;
+	}
+
 	void Start() {
 		viewMesh = new Mesh ();
 		viewMesh.name = "View Mesh";
@@ -30,6 +35,7 @@ public class FieldOfView : MonoBehaviour {
 
 		StartCoroutine ("FindTargetsWithDelay", .2f);
 	}
+
 
 
 	IEnumerator FindTargetsWithDelay(float delay) {
@@ -45,7 +51,9 @@ public class FieldOfView : MonoBehaviour {
 
 	void FindVisibleTargets() {
 		visibleTargets.Clear ();
-		Collider[] targetsInViewRadius = Physics.OverlapSphere (transform.position, viewRadius, targetMask);
+		Vector3 pos = transform.position;
+		pos.y -=0.2f;
+		Collider[] targetsInViewRadius = Physics.OverlapSphere (pos, viewRadius, targetMask);
 
 		for (int i = 0; i < targetsInViewRadius.Length; i++) {
 			Transform target = targetsInViewRadius [i].transform;
