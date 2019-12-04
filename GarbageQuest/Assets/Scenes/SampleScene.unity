@@ -1541,7 +1541,7 @@ PrefabInstance:
     - target: {fileID: 5232161528366331159, guid: 3735016aaa1c56b4ea343ad5851fc34a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.11
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 5232161528366331159, guid: 3735016aaa1c56b4ea343ad5851fc34a,
         type: 3}
@@ -1612,6 +1612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: viewRadius
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232161528366331143, guid: 3735016aaa1c56b4ea343ad5851fc34a,
+        type: 3}
+      propertyPath: meshResolution
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3735016aaa1c56b4ea343ad5851fc34a, type: 3}
