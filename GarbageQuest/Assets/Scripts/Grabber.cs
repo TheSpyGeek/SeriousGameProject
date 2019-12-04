@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(FieldOfView))]
 
-
-[RequireComponent(typeof(Collider))]
 
 public class Grabber : MonoBehaviour
 {
 
+    private FieldOfView field;
     public float throwForce = 6.0f;
 
     private Collider _collider;
@@ -19,13 +19,13 @@ public class Grabber : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _collider = GetComponent<Collider>();
         isGrabbing = false;
+        field = GetComponent<FieldOfView>();
     }
    
 
 
-    void OnTriggerStay(Collider other) {
+    void Update() {
 
         // si l'objet est détruit par la poubelle
         if(isGrabbing && objGrabbed == null) {
@@ -36,7 +36,28 @@ public class Grabber : MonoBehaviour
 
 
         if(Input.GetButtonDown("Use") && !isGrabbing) {
-            Health _health;
+
+            List<Transform> objs = field.getListVisible();
+
+            if(objs.Count > 0){
+                GameObject objToGrab = objs[0].gameObject;
+
+                Health _health;
+                Throwable _throw;
+                
+                if(objToGrab.TryGetComponent<Throwable>(out _throw)) {
+                    if(objToGrab.TryGetComponent<Health>(out _health)) {
+                        if(!_health.isAlive()) {
+                            _throw.beGrabbed(transform);
+                            isGrabbing = true;
+                            objGrabbed = objToGrab;
+                        }
+                    }
+                }
+            }
+
+
+            /*Health _health;
             Throwable _throw;
             
             if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
@@ -47,24 +68,27 @@ public class Grabber : MonoBehaviour
                         objGrabbed = other.gameObject;
                     }
                 }
-            }
+            }*/
             
         } else if(Input.GetButtonDown("Use") && isGrabbing) {
             Throwable _throw;
-            if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
+            if(objGrabbed.TryGetComponent<Throwable>(out _throw)) {
                 _throw.release();
                 isGrabbing = false;
                 objGrabbed = null;
             }
+
         } else if(Input.GetButtonDown("Attack") && isGrabbing) {
             Throwable _throw;
-            if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
+            if(objGrabbed.TryGetComponent<Throwable>(out _throw)) {
                 _throw.throwObj(throwForce);
                 isGrabbing = false;
                 objGrabbed = null;
             }
+
         }
 
     }
+
 
 }
