@@ -793,39 +793,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &1098158263 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5232161528366331145, guid: 3735016aaa1c56b4ea343ad5851fc34a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1874958764636190207}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1098158271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1098158263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a7ffdb5147afc44bf1f3058ce0d66c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageDeal: 1
-  attackspeed: 0.5
---- !u!114 &1098158272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1098158263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40de61b7166b1c647adf5063c0c8d83e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  throwForce: 1000
 --- !u!1 &1164515069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,31 +1573,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5232161528366331147, guid: 3735016aaa1c56b4ea343ad5851fc34a,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232161528366331147, guid: 3735016aaa1c56b4ea343ad5851fc34a,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232161528366331147, guid: 3735016aaa1c56b4ea343ad5851fc34a,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 84
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232161528366331143, guid: 3735016aaa1c56b4ea343ad5851fc34a,
-        type: 3}
-      propertyPath: viewRadius
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5232161528366331143, guid: 3735016aaa1c56b4ea343ad5851fc34a,
-        type: 3}
-      propertyPath: meshResolution
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3735016aaa1c56b4ea343ad5851fc34a, type: 3}
 --- !u!1001 &2072213314978090872
@@ -1705,35 +1647,5 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
-    - target: {fileID: 2072213315304038665, guid: b88729fb0c48fc542b4e532cf1348aa5,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2072213315304038665, guid: b88729fb0c48fc542b4e532cf1348aa5,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bc7843fb9278e3b40adfdb71a15d7df7, type: 2}
-    - target: {fileID: 2072213315304038679, guid: b88729fb0c48fc542b4e532cf1348aa5,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2072213315304038671, guid: b88729fb0c48fc542b4e532cf1348aa5,
-        type: 3}
-      propertyPath: offset.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2072213315304038671, guid: b88729fb0c48fc542b4e532cf1348aa5,
-        type: 3}
-      propertyPath: force
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 2072213315304038671, guid: b88729fb0c48fc542b4e532cf1348aa5,
-        type: 3}
-      propertyPath: offset.y
-      value: -0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b88729fb0c48fc542b4e532cf1348aa5, type: 3}

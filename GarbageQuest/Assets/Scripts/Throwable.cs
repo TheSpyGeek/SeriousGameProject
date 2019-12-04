@@ -12,7 +12,7 @@ public class Throwable : MonoBehaviour
     public GameObject canva;
 
 
-    public Vector3 offset;
+    public Vector3 offset = new Vector3(0,-0.5f,1.5f);
 
 
     private Rigidbody _rigid;
