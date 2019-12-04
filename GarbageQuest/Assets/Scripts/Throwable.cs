@@ -14,6 +14,7 @@ public class Throwable : MonoBehaviour
 
     public Vector3 offset;
 
+
     private Rigidbody _rigid;
 
     private Transform backupParent;
@@ -53,6 +54,7 @@ public class Throwable : MonoBehaviour
         grabbed = false;
         transform.parent = backupParent;
         canva.SetActive(true);
+        _rigid.constraints =  RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         _rigid.AddForce(transform.forward * force);
     }
 
