@@ -7,7 +7,12 @@ using UnityEngine;
 public class Throwable : MonoBehaviour
 {
     private bool grabbed;
+
+
     public GameObject canva;
+
+
+    public Vector3 offset;
 
     private Rigidbody _rigid;
 
@@ -25,8 +30,10 @@ public class Throwable : MonoBehaviour
 
     public void beGrabbed(Transform t) {
         transform.parent = t;
+        transform.localPosition = offset;
         transform.rotation = t.rotation;
         _rigid.velocity = Vector3.zero;
+        _rigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         grabbed = true;
         canva.SetActive(false);
     }
@@ -36,6 +43,7 @@ public class Throwable : MonoBehaviour
         grabbed = false;
         transform.parent = backupParent;
         _rigid.velocity = Vector3.zero;
+        _rigid.constraints =  RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         canva.SetActive(true);
     }
 

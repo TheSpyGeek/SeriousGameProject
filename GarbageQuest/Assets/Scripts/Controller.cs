@@ -22,5 +22,6 @@ public class Controller : MonoBehaviour {
 
 	void FixedUpdate() {
 		rigidbody.MovePosition (rigidbody.position + velocity * Time.fixedDeltaTime);
+		transform.position = rigidbody.position;
 	}
 }

@@ -48,7 +48,7 @@ public class Grabber : MonoBehaviour
                 if(objToGrab.TryGetComponent<Throwable>(out _throw)) {
                     if(objToGrab.TryGetComponent<Health>(out _health)) {
                         if(!_health.isAlive()) {
-                            _throw.beGrabbed(transform);
+                            _throw.beGrabbed(this.transform);
                             isGrabbing = true;
                             objGrabbed = objToGrab;
                         }
