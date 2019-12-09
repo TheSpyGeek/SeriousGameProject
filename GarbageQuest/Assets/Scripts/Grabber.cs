@@ -55,20 +55,6 @@ public class Grabber : MonoBehaviour
                     }
                 }
             }
-
-
-            /*Health _health;
-            Throwable _throw;
-            
-            if(other.gameObject.TryGetComponent<Throwable>(out _throw)) {
-                if(other.gameObject.TryGetComponent<Health>(out _health)) {
-                    if(!_health.isAlive()) {
-                        _throw.beGrabbed(transform);
-                        isGrabbing = true;
-                        objGrabbed = other.gameObject;
-                    }
-                }
-            }*/
             
         } else if(Input.GetButtonDown("Use") && isGrabbing) {
             Throwable _throw;
