@@ -19,7 +19,6 @@ public class garbageDestroyer : MonoBehaviour
 
 
     private void OnTriggerEnter(Collider other) {
-        Debug.Log("Bonjour");
         if(other.CompareTag("Enemy")) {
             Health _heal;
             if(other.gameObject.TryGetComponent<Health>(out _heal)) {
