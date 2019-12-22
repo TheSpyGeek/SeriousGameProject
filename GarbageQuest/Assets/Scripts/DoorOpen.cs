@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DoorOpen : MonoBehaviour
 {
-    
 
     private Animation m_animation;
     private bool m_animationStarted;
@@ -14,19 +13,12 @@ public class DoorOpen : MonoBehaviour
         m_animation = GetComponent<Animation>();
     }
 
-    // Update is called once per frame
-    void Update(){
-        if(!m_animationStarted) {
-            if(noEnemies()) {
-                m_animation.Play();
-                m_animationStarted = true;
-                Debug.Log("Start");
-            }
-        }
+
+
+    public void openDoor(){
+        m_animation.Play();
+        m_animationStarted = true;
+
     }
 
-    bool noEnemies() {
-        GameObject[] array = GameObject.FindGameObjectsWithTag("Enemy");
-        return array.Length == 0;
-    }
 }
