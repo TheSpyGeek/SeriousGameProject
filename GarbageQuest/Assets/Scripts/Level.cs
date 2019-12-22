@@ -27,6 +27,7 @@ public class Level : MonoBehaviour
         if(!m_isFinished){
             if(noEnemies()){
                 doorOpen.openDoor();
+                m_isFinished = true;
             }
         }
     }

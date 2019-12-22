@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraChangeLevel : MonoBehaviour
 {
 
-    public Transform m_nextLevelTransform;
+    public Level m_nextLevel;  
 
 
     private void OnTriggerEnter(Collider other) {
@@ -13,11 +13,13 @@ public class CameraChangeLevel : MonoBehaviour
             GameObject obj = Camera.main.gameObject;
             smoothTransformMove smooth = obj.GetComponent<smoothTransformMove>();
             if(smooth != null) {
+                Transform m_nextLevelTransform = m_nextLevel.gameObject.transform;
                 smooth.endMarker = m_nextLevelTransform;
                 GameObject player = GameObject.FindGameObjectWithTag("Player");
                 if(player != null) {
                     player.transform.position = new Vector3(m_nextLevelTransform.position.x, m_nextLevelTransform.position.y + 0.1f, m_nextLevelTransform.position.z);
                 }
+                m_nextLevel.startLevel();
             }
         }
     }
