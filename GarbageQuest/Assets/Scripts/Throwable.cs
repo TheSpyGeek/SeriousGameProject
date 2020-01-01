@@ -9,7 +9,7 @@ public class Throwable : MonoBehaviour
     private bool grabbed;
 
 
-    public GameObject canva;
+    public GameObject canvas;
 
 
     public Vector3 offset = new Vector3(0,-0.5f,1.5f);
@@ -36,7 +36,7 @@ public class Throwable : MonoBehaviour
         _rigid.velocity = Vector3.zero;
         _rigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         grabbed = true;
-        canva.SetActive(false);
+        canvas.SetActive(false);
     }
 
     public void release() {
@@ -45,7 +45,7 @@ public class Throwable : MonoBehaviour
         transform.parent = backupParent;
         _rigid.velocity = Vector3.zero;
         _rigid.constraints =  RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
-        canva.SetActive(true);
+        canvas.SetActive(true);
     }
 
   
@@ -53,7 +53,7 @@ public class Throwable : MonoBehaviour
 
         grabbed = false;
         transform.parent = backupParent;
-        canva.SetActive(true);
+        canvas.SetActive(true);
         _rigid.constraints =  RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         _rigid.AddForce(transform.forward * force);
     }
