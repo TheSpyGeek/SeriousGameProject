@@ -30,4 +30,5 @@ public class changeColorBool : MonoBehaviour
             renderer.material = matDead;
         }
     }
+
 }
