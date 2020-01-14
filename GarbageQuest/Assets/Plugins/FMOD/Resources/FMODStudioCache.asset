@@ -37,7 +37,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 8884214375607862842}
+  - {fileID: 4561131566965268225}
   MinDistance: 1
   MaxDistance: 20
   Length: 49139
@@ -234,6 +234,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &-2091172329928661784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Test1/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-2065656342781128498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,11 +265,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637146407621488526
+  lastModified: 637146438803062699
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1677248
+    Value: 1679872
   Exists: 1
 --- !u!114 &-1726677291100859263
 MonoBehaviour:
@@ -294,6 +311,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41000
+--- !u!114 &-864336380706147933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-415958248396743967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,7 +382,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 6867116865926812830}
+  - {fileID: 3455024132229454135}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -377,7 +411,7 @@ MonoBehaviour:
   - {fileID: -2065656342781128498}
   StringsBanks:
   - {fileID: 4277872784551746723}
-  stringsBankWriteTime: 637146407621508523
+  stringsBankWriteTime: 637146438803092686
   cacheVersion: 3
 --- !u!114 &592950281889331046
 MonoBehaviour:
@@ -462,6 +496,57 @@ MonoBehaviour:
   Name: Parameter 1
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3423348485056897836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &3455024132229454135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 1
+--- !u!114 &3530544198297339749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
   Default: 0
   Exists: 0
 --- !u!114 &3640883214781767172
@@ -563,12 +648,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637146407621508523
+  lastModified: 637146438803092686
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 964
   Exists: 1
+--- !u!114 &4440849174381746204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
 --- !u!114 &4445372319236050237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,6 +686,23 @@ MonoBehaviour:
   Name: ActiveCombat2
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &4561131566965268225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Test1/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
   Default: 0
   Exists: 1
 --- !u!114 &4688948695913727289
@@ -606,10 +725,10 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2412863007028672636}
+  - {fileID: 3423348485056897836}
   MinDistance: 1
   MaxDistance: 20
-  Length: 66997
+  Length: 101997
 --- !u!114 &4996701522638438609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,6 +763,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &5058073174452013725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Test1/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &5169937522354920387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,6 +880,23 @@ MonoBehaviour:
   Name: Parameter 1
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7823457990117920450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
   Default: 0
   Exists: 0
 --- !u!114 &8156069322836703682

@@ -25,7 +25,7 @@ public class changeColorBool : MonoBehaviour
     void Update()
     {
         if(_health.isAlive()) {
-            renderer.material = matAlive;
+            //renderer.material = matAlive;
         } else {
             renderer.material = matDead;
         }
