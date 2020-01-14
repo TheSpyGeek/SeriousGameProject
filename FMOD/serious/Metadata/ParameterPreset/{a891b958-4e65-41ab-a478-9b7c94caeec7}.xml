@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{a891b958-4e65-41ab-a478-9b7c94caeec7}">
+		<property name="name">
+			<value>ActiveCombat1</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae3720a-3374-4992-a1b7-0bfb929ce217}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ebbdb32c-3579-48d0-93dc-5383593f56bb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ebbdb32c-3579-48d0-93dc-5383593f56bb}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

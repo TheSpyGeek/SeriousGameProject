@@ -1184,6 +1184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_nextLevel: {fileID: 3991340041779083949}
+  m_emitter: {fileID: 1651944672}
+  musicChange: 1.1
 --- !u!65 &748424288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1207,7 +1209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948499714}
   m_Layer: 0
-  m_Name: EnemyList (1)
+  m_Name: EnemyList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1241,6 +1243,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1255,7 +1258,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -1328,6 +1331,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endMarker: {fileID: 1164515070}
   m_speed: 1.2
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!1 &1006821668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,7 +1581,7 @@ PrefabInstance:
     - target: {fileID: 2072213315304038678, guid: b88729fb0c48fc542b4e532cf1348aa5,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2072213315304038667, guid: b88729fb0c48fc542b4e532cf1348aa5,
         type: 3}
@@ -1703,7 +1719,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1224031338
 Transform:
   m_ObjectHideFlags: 0
@@ -1937,7 +1953,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1651944671}
-  - component: {fileID: 1651944673}
   - component: {fileID: 1651944672}
   m_Layer: 0
   m_Name: Sound Emitter
@@ -1953,9 +1968,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651944670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 15.78}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 10.86}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 963194228}
   m_RootOrder: 0
@@ -1973,30 +1988,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Combat
+  Event: event:/Combat adaptatif
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
-  Preload: 1
-  Params:
-  - Name: Type
-    Value: 1
+  Preload: 0
+  Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &1651944673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651944670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc97a341649d56a4ab51daa5581ee1d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1760386084 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7520887090093912302, guid: 249c835c9aaa1744a87d0fc9f51dee7f,
@@ -2857,7 +2858,7 @@ PrefabInstance:
     - target: {fileID: 2072213315304038678, guid: b88729fb0c48fc542b4e532cf1348aa5,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2072213315304038667, guid: b88729fb0c48fc542b4e532cf1348aa5,
         type: 3}
