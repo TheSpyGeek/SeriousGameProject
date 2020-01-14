@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class DoorOpen : MonoBehaviour
 {
@@ -18,7 +19,11 @@ public class DoorOpen : MonoBehaviour
     public void openDoor(){
         m_animation.Play();
         m_animationStarted = true;
+        StudioEventEmitter emitter = GetComponent<StudioEventEmitter>();
+        if(emitter != null) {
+            emitter.Play();
+        }
 
-    }
+}
 
 }
