@@ -137,6 +137,43 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-7301351472930318248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637146844036876263
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1380064
+  Exists: 1
+--- !u!114 &-6987236015707193251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 1
 --- !u!114 &-6969722436341683954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +208,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-6788276581780399427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ennmi_1_alive
+  m_EditorClassIdentifier: 
+  Name: Ennmi_1_alive
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6785969093464841518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,6 +271,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 38002
+--- !u!114 &-6359168818147359298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ennmi_1_alive
+  m_EditorClassIdentifier: 
+  Name: Ennmi_1_alive
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-6287723303022189239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,6 +348,29 @@ MonoBehaviour:
   Max: 11
   Default: 0
   Exists: 0
+--- !u!114 &-5770242353517493954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Porte
+  m_EditorClassIdentifier: 
+  Path: event:/Porte
+  guid: 3e827446d338c54c91fb9bc5d153276b
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1491
 --- !u!114 &-5767551335674002934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,6 +405,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5471002361551757901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Win
+  m_EditorClassIdentifier: 
+  Path: event:/Win
+  guid: 7a3ef30f1e05cf4e9b5a0f32ec261690
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1996
 --- !u!114 &-5360358889653021548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,6 +469,26 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-4915797288406323175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637146844036906263
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1166
+  Exists: 1
 --- !u!114 &-4554672607956321249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,6 +580,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41000
+--- !u!114 &-3971515171213873035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Village
+  m_EditorClassIdentifier: 
+  Path: event:/Village
+  guid: f286bf3c56e9ff4cabe6c19519a3ff88
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38002
 --- !u!114 &-3872613053255481631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,6 +714,30 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 1
+--- !u!114 &-3385296887062812021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Combat adaptatif
+  m_EditorClassIdentifier: 
+  Path: event:/Combat adaptatif
+  guid: cc938e269c2bff4e9681c598fffbc7b3
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1837297979669319343}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 101997
 --- !u!114 &-3150114156464644287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,6 +789,29 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &-2250112412562718216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carton Destroy
+  m_EditorClassIdentifier: 
+  Path: event:/Carton Destroy
+  guid: 6d02aaf2afd5974596f6da78e2fa724a
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
 --- !u!114 &-2222093239102012500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,6 +865,23 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1327552
+  Exists: 1
+--- !u!114 &-1837297979669319343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
   Exists: 1
 --- !u!114 &-1813197992990116529
 MonoBehaviour:
@@ -854,12 +1078,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
-  EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  stringsBankWriteTime: 0
+  EditorBanks:
+  - {fileID: -4915797288406323175}
+  - {fileID: -7301351472930318248}
+  EditorEvents:
+  - {fileID: -5770242353517493954}
+  - {fileID: -2250112412562718216}
+  - {fileID: -5471002361551757901}
+  - {fileID: 3785774743488412982}
+  - {fileID: 636741910212563871}
+  - {fileID: -3385296887062812021}
+  - {fileID: -3971515171213873035}
+  EditorParameters:
+  - {fileID: -6359168818147359298}
+  MasterBanks:
+  - {fileID: -7301351472930318248}
+  StringsBanks:
+  - {fileID: -4915797288406323175}
+  stringsBankWriteTime: 637146844036906263
   cacheVersion: 3
 --- !u!114 &364777868392048074
 MonoBehaviour:
@@ -895,6 +1131,30 @@ MonoBehaviour:
   Max: 11
   Default: 0
   Exists: 1
+--- !u!114 &636741910212563871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Combat
+  m_EditorClassIdentifier: 
+  Path: event:/Combat
+  guid: addf4e718eacc94e9d804651a5860047
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6987236015707193251}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &941513256902496536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -947,6 +1207,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &1553718873155927513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
+--- !u!114 &1589497714619380014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1194,6 +1471,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &3785774743488412982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Verre Destroy
+  m_EditorClassIdentifier: 
+  Path: event:/Verre Destroy
+  guid: 83a667ef9bcb4842ac87f448e1713c4e
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 888
 --- !u!114 &3821281731725583108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1612,6 +1912,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 1
+--- !u!114 &6615709410071982083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &6867116865926812830
 MonoBehaviour:
   m_ObjectHideFlags: 0
