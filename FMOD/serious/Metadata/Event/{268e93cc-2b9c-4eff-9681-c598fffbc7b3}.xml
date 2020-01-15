@@ -38,6 +38,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{99d90175-216e-4bb4-a350-77b90f52ec2e}</destination>
+			<destination>{d5f63c26-b258-42c3-9be4-6db2737b9337}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{264c6297-b6b4-4ecd-83cf-07cc29c3ad64}</destination>
@@ -142,6 +143,11 @@
 			<destination>{0b1840fd-b69f-4a14-8b10-51882bb72a16}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{d5f63c26-b258-42c3-9be4-6db2737b9337}">
+		<relationship name="preset">
+			<destination>{3abf6d98-a655-4db3-bf04-254291d9d2af}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{ca87619b-2c04-4be8-a9ea-bf9b79b475ac}">
 		<property name="volume">
 			<value>-13</value>
@@ -194,7 +200,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{94e9ce2f-ba47-4efb-8269-cd3f0416f56f}">
 		<property name="volume">
-			<value>-9.5</value>
+			<value>-6</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

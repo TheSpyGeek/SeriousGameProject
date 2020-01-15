@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{101c0c55-f57a-4ca5-8818-cec57731b28c}">
+		<property name="name">
+			<value>Ennmi_1_alive</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae3720a-3374-4992-a1b7-0bfb929ce217}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3abf6d98-a655-4db3-bf04-254291d9d2af}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3abf6d98-a655-4db3-bf04-254291d9d2af}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
