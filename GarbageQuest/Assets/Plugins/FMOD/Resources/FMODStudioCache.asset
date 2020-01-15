@@ -33,7 +33,7 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8759924775587731040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,11 +202,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637146852677950792
+  lastModified: 637146856332538789
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1387808
+    Value: 1390368
   Exists: 1
 --- !u!114 &-6987236015707193251
 MonoBehaviour:
@@ -534,11 +534,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637146852677970785
+  lastModified: 637146856332558790
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1206
+    Value: 1254
   Exists: 1
 --- !u!114 &-4554672607956321249
 MonoBehaviour:
@@ -785,7 +785,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -8853206717364762582}
+  - {fileID: 5504203814069897026}
   MinDistance: 1
   MaxDistance: 20
   Length: 101997
@@ -1141,13 +1141,14 @@ MonoBehaviour:
   - {fileID: -3385296887062812021}
   - {fileID: -3971515171213873035}
   - {fileID: 6597535230454361009}
+  - {fileID: 6690587174597263374}
   EditorParameters:
   - {fileID: 7330211215719399961}
   MasterBanks:
   - {fileID: -7301351472930318248}
   StringsBanks:
   - {fileID: -4915797288406323175}
-  stringsBankWriteTime: 637146852677970785
+  stringsBankWriteTime: 637146856332558790
   cacheVersion: 3
 --- !u!114 &364777868392048074
 MonoBehaviour:
@@ -1203,7 +1204,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 7107546768734465086}
+  - {fileID: 5699401573744840749}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1913,6 +1914,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &5504203814069897026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &5561206762090877621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1947,6 +1965,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &5699401573744840749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 1
 --- !u!114 &6177173059006285552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1986,7 +2021,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 679
+  Length: 520
 --- !u!114 &6615709410071982083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2004,6 +2039,29 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &6690587174597263374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hit Carton
+  m_EditorClassIdentifier: 
+  Path: event:/Hit Carton
+  guid: 68309291bca25841b90f1feb68db618e
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 119
 --- !u!114 &6867116865926812830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2091,7 +2149,7 @@ MonoBehaviour:
   Min: 0
   Max: 11
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &7156647552358384403
 MonoBehaviour:
   m_ObjectHideFlags: 0
