@@ -913,22 +913,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1334142425, guid: 12e74d38def2ddf46a3f48bea1fcd58f, type: 3}
-      propertyPath: OverrideMaxDistance
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334142425, guid: 12e74d38def2ddf46a3f48bea1fcd58f, type: 3}
-      propertyPath: Preload
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334142425, guid: 12e74d38def2ddf46a3f48bea1fcd58f, type: 3}
-      propertyPath: AllowFadeout
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334142425, guid: 12e74d38def2ddf46a3f48bea1fcd58f, type: 3}
-      propertyPath: OverrideMinDistance
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12e74d38def2ddf46a3f48bea1fcd58f, type: 3}
 --- !u!4 &350339581 stripped
@@ -2405,7 +2389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1224031338
 Transform:
   m_ObjectHideFlags: 0
@@ -4527,6 +4511,11 @@ PrefabInstance:
       propertyPath: OverrideMinDistance
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 3038838464381756498, guid: 12e74d38def2ddf46a3f48bea1fcd58f,
+        type: 3}
+      propertyPath: hit_emitter
+      value: 
+      objectReference: {fileID: 2119703739}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12e74d38def2ddf46a3f48bea1fcd58f, type: 3}
 --- !u!1 &2104607140
@@ -4560,6 +4549,35 @@ Transform:
   m_Father: {fileID: 1848642243}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2119703738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2391486356224802775, guid: 12e74d38def2ddf46a3f48bea1fcd58f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2099166435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2119703739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119703738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Hit Verre
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 20
+  OverrideMaxDistance: 40
 --- !u!4 &2137748442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3337311070937538130, guid: 6e6ca9a79b533108da2fc8388e57f530,

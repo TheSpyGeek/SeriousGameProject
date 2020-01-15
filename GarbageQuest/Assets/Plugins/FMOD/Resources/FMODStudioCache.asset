@@ -17,6 +17,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-8853206717364762582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &-8759924775587731040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,6 +103,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 49139
+--- !u!114 &-8127668826344123323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
 --- !u!114 &-7724607807008389900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +154,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-7328603900459373387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-7327785052843693213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,11 +202,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637146844036876263
+  lastModified: 637146852677950792
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1380064
+    Value: 1387808
   Exists: 1
 --- !u!114 &-6987236015707193251
 MonoBehaviour:
@@ -173,7 +224,7 @@ MonoBehaviour:
   Min: 0
   Max: 11
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6969722436341683954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,7 +338,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6287723303022189239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,11 +534,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637146844036906263
+  lastModified: 637146852677970785
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1166
+    Value: 1206
   Exists: 1
 --- !u!114 &-4554672607956321249
 MonoBehaviour:
@@ -734,7 +785,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -1837297979669319343}
+  - {fileID: -8853206717364762582}
   MinDistance: 1
   MaxDistance: 20
   Length: 101997
@@ -882,7 +933,7 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1813197992990116529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1089,13 +1140,14 @@ MonoBehaviour:
   - {fileID: 636741910212563871}
   - {fileID: -3385296887062812021}
   - {fileID: -3971515171213873035}
+  - {fileID: 6597535230454361009}
   EditorParameters:
-  - {fileID: -6359168818147359298}
+  - {fileID: 7330211215719399961}
   MasterBanks:
   - {fileID: -7301351472930318248}
   StringsBanks:
   - {fileID: -4915797288406323175}
-  stringsBankWriteTime: 637146844036906263
+  stringsBankWriteTime: 637146852677970785
   cacheVersion: 3
 --- !u!114 &364777868392048074
 MonoBehaviour:
@@ -1151,7 +1203,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -6987236015707193251}
+  - {fileID: 7107546768734465086}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1912,6 +1964,29 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 1
+--- !u!114 &6597535230454361009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hit Verre
+  m_EditorClassIdentifier: 
+  Path: event:/Hit Verre
+  guid: fa840f492d48d941b9e9e4bd1d048acf
+  Banks:
+  - {fileID: -7301351472930318248}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 679
 --- !u!114 &6615709410071982083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2000,6 +2075,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &7107546768734465086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 1
 --- !u!114 &7156647552358384403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,6 +2120,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Combat adaptatif/Ennmi_1_alive
+  m_EditorClassIdentifier: 
+  Name: Ennmi_1_alive
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &7330211215719399961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ennmi_1_alive
   m_EditorClassIdentifier: 
   Name: Ennmi_1_alive
   Min: 0
