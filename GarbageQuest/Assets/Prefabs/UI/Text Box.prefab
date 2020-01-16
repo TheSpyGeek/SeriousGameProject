@@ -158,7 +158,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 400}
+  m_SizeDelta: {x: 1100, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4553194913517836582
 CanvasRenderer:
@@ -188,16 +188,17 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 37
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 4
+    m_MaxSize: 45
     m_Alignment: 3
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.09
-  m_Text: "L'hisoire commence dans le village PeaceTown. Un jeune du nom Thomas se
-    rend chez son grand-p\xE8re \xE0 l'autre bout du village."
+  m_Text: "L'hisoire commence dans le village PeaceTown. C'est un village paisible
+    o\xF9 toute le monde est heureux et s'entraide. Le village vit gr\xE2ce au tourisme,
+    \xE0 l'agriculture et la centr\xE2le de charbon."

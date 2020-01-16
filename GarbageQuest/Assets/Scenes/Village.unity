@@ -2053,6 +2053,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4252445619763983962, guid: c5053342512494c4a8dd1ecbf911b1b2,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1800
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252445619763983962, guid: c5053342512494c4a8dd1ecbf911b1b2,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5053342512494c4a8dd1ecbf911b1b2, type: 3}
 --- !u!1001 &352941944
@@ -3609,7 +3619,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -12331,9 +12341,9 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 3
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.903
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -12358,7 +12368,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -13240,23 +13250,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4553194913517836583, guid: ac356dc88205fcb48af45c22546b310f,
-        type: 3}
-      propertyPath: m_Text
-      value: "L'hisoire commence dans le village PeaceTown. C'est un village paisible
-        o\xF9 toute le monde est heureux et s'entraide. Le village vit gr\xE2ce au
-        tourisme, \xE0 l'agriculture et la centr\xE2le de charbon."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4553194913517836583, guid: ac356dc88205fcb48af45c22546b310f,
-        type: 3}
-      propertyPath: m_FontData.m_RichText
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4553194913517836583, guid: ac356dc88205fcb48af45c22546b310f,
-        type: 3}
-      propertyPath: m_FontData.m_AlignByGeometry
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac356dc88205fcb48af45c22546b310f, type: 3}
