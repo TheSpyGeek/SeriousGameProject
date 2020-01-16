@@ -16,7 +16,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 1
   sourceProjectPath: E:/Project/SeriousGameProject/FMOD/serious/serious.fspro
-  SourceBankPathUnformatted: E:/Project/SeriousGameProject/FMOD/serious
+  SourceBankPathUnformatted: D:/Cours/Master/S3/SeriousGameProject/FMOD/serious/Build
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
     Value: 0
   BankDirectorySettings:
   - Platform: 2
-    Value: 
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 1
     Value: 1024
@@ -75,8 +75,7 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks:
-  - Build/Desktop/Master
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
