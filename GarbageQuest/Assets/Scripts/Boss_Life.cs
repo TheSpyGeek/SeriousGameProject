@@ -24,7 +24,7 @@ public class Boss_Life : MonoBehaviour
                 float z = Mathf.Sin(angle) * radius;
                 Vector3 pos = transform.position + new Vector3(x, 0, z);
                 
-                Instantiate(childsPrefabs[i], pos, childsPrefabs[i].transform.rotation);
+                var instance = Instantiate(childsPrefabs[i], pos, childsPrefabs[i].transform.rotation, transform.parent);
             }
 
             // Lastly destroy itself
