@@ -23,5 +23,6 @@ public class Controller : MonoBehaviour {
         //m_rigidbody.MovePosition (m_rigidbody.position + velocity * Time.fixedDeltaTime);
         m_rigidbody.velocity = velocity;
         //transform.position = rigidbody.position;
+        m_rigidbody.angularVelocity = Vector3.zero;
     }
 }
