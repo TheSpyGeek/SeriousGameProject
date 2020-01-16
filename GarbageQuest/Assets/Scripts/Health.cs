@@ -34,7 +34,9 @@ public class Health : MonoBehaviour
 
     // appelé par la personne qui tape
     public void getHit(int dmg) {
-        hit_emitter.Play();
+        if(hit_emitter !=null) {
+            hit_emitter.Play();
+        }
         
         currentHP -= dmg;
         checkHealth();

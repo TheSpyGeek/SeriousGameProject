@@ -36,7 +36,7 @@ public class BouncingBall : MonoBehaviour
 
     void bounce(Vector3 normal) {
         //Vector3 velocity = m_rigidbody.velocity;
-        Debug.Log(lastFrameVelocity);
+        //Debug.Log(lastFrameVelocity);
         Vector3 velocity = Vector3.Reflect(lastFrameVelocity, normal);
         Debug.Log(velocity);
         m_rigidbody.velocity = velocity* velocityDiviser;

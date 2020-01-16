@@ -7,27 +7,34 @@ public class Level : MonoBehaviour
     private bool m_isFinished;
 
     public GameObject m_enemyList;
-    public DoorOpen doorOpen;
+    public GameObject doorOpen;
+
+
+    //private GameObject[] arrayEnemy;
 
     // Start is called before the first frame update
     void Start()
     {
         m_isFinished = false;
-        
+
     }
 
     public void startLevel (){
         m_enemyList.SetActive(true);
         m_isFinished = false;
+        doorOpen.SetActive(true);
+        //arrayEnemy = m_enemyList.transform.getChi
     }
 
     // Update is called once per frame
     void Update()
     {
         if(!m_isFinished){
-            if(noEnemies()){
-                doorOpen.openDoor();
-                m_isFinished = true;
+            if(noEnemies()) {
+                if(doorOpen.activeInHierarchy) {
+                    doorOpen.GetComponent<DoorOpen>().openDoor();
+                    m_isFinished = true;
+                }
             }
         }
     }
