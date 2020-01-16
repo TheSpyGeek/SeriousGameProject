@@ -1855,7 +1855,6 @@ GameObject:
   - component: {fileID: 298824227}
   - component: {fileID: 298824226}
   - component: {fileID: 298824225}
-  - component: {fileID: 298824224}
   m_Layer: 0
   m_Name: Troitoir droit
   m_TagString: Untagged
@@ -1863,19 +1862,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &298824224
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298824223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &298824225
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5533,6 +5519,64 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 4553194912356824487}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &881364396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881364398}
+  - component: {fileID: 881364397}
+  - component: {fileID: 881364399}
+  m_Layer: 0
+  m_Name: NextLevelTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &881364397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881364396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.37319, y: 2.5275369, z: 4.2077827}
+  m_Center: {x: -0.32292795, y: 0.76376843, z: 1.9252148}
+--- !u!4 &881364398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881364396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.063, y: 1.576, z: -56.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &881364399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881364396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb262b525e3dd6b4492bda0fa07b818c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1708593678}
 --- !u!1001 &895644414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7076,7 +7120,6 @@ GameObject:
   - component: {fileID: 1141479136}
   - component: {fileID: 1141479135}
   - component: {fileID: 1141479134}
-  - component: {fileID: 1141479133}
   m_Layer: 0
   m_Name: Troitoir gauche
   m_TagString: Untagged
@@ -7084,19 +7127,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1141479133
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141479132}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1141479134
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9353,7 +9383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506553004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.93, z: 2.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593822038}
@@ -9366,21 +9396,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506553004}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Test1
+  Event: event:/Village
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
+  OverrideAttenuation: 1
+  OverrideMinDistance: 5
   OverrideMaxDistance: 20
 --- !u!114 &1506553007
 MonoBehaviour:
@@ -10967,6 +10997,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3584750000613949258, guid: 945b1cb83541c41a796ff692ec69753b,
     type: 3}
   m_PrefabInstance: {fileID: 1675171760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1708593678 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4252445619581066164, guid: c5053342512494c4a8dd1ecbf911b1b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 325201672}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1714143146
 PrefabInstance:
@@ -14331,6 +14367,7 @@ GameObject:
   - component: {fileID: 8490669731745506336}
   - component: {fileID: 8490669731745506352}
   - component: {fileID: 8490669731745506346}
+  - component: {fileID: 8490669731745506347}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -14354,6 +14391,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 118
   m_CollisionDetection: 0
+--- !u!136 &8490669731745506347
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490669731745506345}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.8070616
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7330286, z: 0}
 --- !u!114 &8490669731745506352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14366,7 +14417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3128ed017aaf90439b3eeae8bcba1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 4
+  walkSpeed: 5
 --- !u!4 &8490669731814083928
 Transform:
   m_ObjectHideFlags: 0

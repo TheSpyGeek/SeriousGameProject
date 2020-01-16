@@ -323,9 +323,6 @@
 		<property name="quantizationInterval">
 			<value>8</value>
 		</property>
-		<relationship name="triggerConditions">
-			<destination>{b88e65dc-3f15-4a6f-a4c6-6367190ba9b4}</destination>
-		</relationship>
 		<relationship name="placeholder">
 			<destination>{6d85c0d6-77f0-45b9-a021-e64a99fc3d92}</destination>
 		</relationship>
@@ -340,9 +337,6 @@
 		<property name="length">
 			<value>8</value>
 		</property>
-		<relationship name="triggerConditions">
-			<destination>{4a34363a-c550-467c-a9cf-5a9c887c2b76}</destination>
-		</relationship>
 		<relationship name="placeholder">
 			<destination>{75bd3681-82c9-4d5c-aa69-ba7068b70d8e}</destination>
 		</relationship>
@@ -360,9 +354,6 @@
 		<property name="volume">
 			<value>1</value>
 		</property>
-		<relationship name="triggerConditions">
-			<destination>{1d569af1-9fe4-46ec-ae14-079c1725ed58}</destination>
-		</relationship>
 		<relationship name="placeholder">
 			<destination>{3c925bea-818a-4750-96eb-32274d757c0f}</destination>
 		</relationship>
@@ -631,39 +622,6 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{3abf6d98-a655-4db3-bf04-254291d9d2af}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{b88e65dc-3f15-4a6f-a4c6-6367190ba9b4}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{7fd28360-258f-4224-8526-2cf82a592979}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{4a34363a-c550-467c-a9cf-5a9c887c2b76}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{2130e488-0c81-4cb4-9023-6ed3b8531caa}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{1d569af1-9fe4-46ec-ae14-079c1725ed58}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{cd07f1c5-80b6-4c94-9562-b55090740fb6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{e2d24335-efa1-44a1-a1f9-459894b09ada}">
