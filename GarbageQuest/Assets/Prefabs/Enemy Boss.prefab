@@ -367,7 +367,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: {fileID: 3497656550216075182}
-  childsPrefabs: []
+  childsPrefabs:
+  - {fileID: 3931446630487065990, guid: 6fc03162a4bfa484493eec5455a7133f, type: 3}
+  - {fileID: 6601283008325752483, guid: 0fc11ffd20403804b85c7564cef97118, type: 3}
+  - {fileID: 5166112469378732925, guid: 908397002919b894eb60ac3204ebb5b3, type: 3}
+  - {fileID: 5166112469378732925, guid: 908397002919b894eb60ac3204ebb5b3, type: 3}
+  - {fileID: 8668050695161190489, guid: 648c5bc2c4b64b142877781ea6c12fe6, type: 3}
+  - {fileID: 8668050695161190489, guid: 648c5bc2c4b64b142877781ea6c12fe6, type: 3}
   radius: 2
 --- !u!1 &7321582871937579517
 GameObject:
