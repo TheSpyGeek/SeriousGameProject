@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Health))]
-[RequireComponent(typeof(Throwable))]
 
 public class displayHealth : MonoBehaviour
 {
