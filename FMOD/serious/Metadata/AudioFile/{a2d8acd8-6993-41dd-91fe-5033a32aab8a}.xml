@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a2d8acd8-6993-41dd-91fe-5033a32aab8a}">
+		<property name="assetPath">
+			<value>porte ouverture.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.3844897959183673</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d63b9c82-44fd-43c7-bb47-01b19dcce247}</destination>
+		</relationship>
+	</object>
+</objects>

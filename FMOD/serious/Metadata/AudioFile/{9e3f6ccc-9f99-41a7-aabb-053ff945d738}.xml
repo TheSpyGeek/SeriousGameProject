@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9e3f6ccc-9f99-41a7-aabb-053ff945d738}">
+		<property name="assetPath">
+			<value>porte.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>34.298775510204081</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d63b9c82-44fd-43c7-bb47-01b19dcce247}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!136 &350339583
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2391486356224802775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25042635
+  m_Height: 0.9212693
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.46063465}
+--- !u!114 &905517903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2391486356224802775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Hit Verre
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 20
+  OverrideMaxDistance: 40
+--- !u!114 &1334142425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2391486356224802775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Verre Destroy
+  PlayEvent: 2
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 1
+  Preload: 1
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 20
+  OverrideMaxDistance: 40
+--- !u!1001 &6447850667344258958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8668050695161190489, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy Wine Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668050695160251481, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: c508bee724909024ebabc106ffc525ee, type: 3}
+    - target: {fileID: 8311183649182925788, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: hit_emitter
+      value: 
+      objectReference: {fileID: 905517903}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 648c5bc2c4b64b142877781ea6c12fe6, type: 3}
+--- !u!1 &2391486356224802775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8668050695161190489, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6447850667344258958}
+  m_PrefabAsset: {fileID: 0}

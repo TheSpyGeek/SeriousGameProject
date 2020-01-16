@@ -38,4 +38,5 @@ sysinfo.txt
 .vs/
 Temp/
 Library/*
+.vscode/
 fmod_editor.log

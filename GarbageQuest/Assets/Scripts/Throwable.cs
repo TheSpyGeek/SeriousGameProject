@@ -7,7 +7,13 @@ using UnityEngine;
 public class Throwable : MonoBehaviour
 {
     private bool grabbed;
-    public GameObject canva;
+
+
+    public GameObject canvas;
+
+
+    public Vector3 offset = new Vector3(0,-0.5f,1.5f);
+
 
     private Rigidbody _rigid;
 
@@ -25,10 +31,12 @@ public class Throwable : MonoBehaviour
 
     public void beGrabbed(Transform t) {
         transform.parent = t;
+        transform.localPosition = offset;
         transform.rotation = t.rotation;
         _rigid.velocity = Vector3.zero;
+        _rigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         grabbed = true;
-        canva.SetActive(false);
+        canvas.SetActive(false);
     }
 
     public void release() {
@@ -36,7 +44,8 @@ public class Throwable : MonoBehaviour
         grabbed = false;
         transform.parent = backupParent;
         _rigid.velocity = Vector3.zero;
-        canva.SetActive(true);
+        _rigid.constraints =  RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
+        canvas.SetActive(true);
     }
 
   
@@ -44,7 +53,8 @@ public class Throwable : MonoBehaviour
 
         grabbed = false;
         transform.parent = backupParent;
-        canva.SetActive(true);
+        canvas.SetActive(true);
+        _rigid.constraints =  RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         _rigid.AddForce(transform.forward * force);
     }
 

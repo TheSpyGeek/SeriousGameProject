@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class Health : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Health : MonoBehaviour
     private bool alive;
 
     public float timeToRespawn;
+
+    public StudioEventEmitter hit_emitter;
 
 
     private int currentHP;
@@ -31,6 +34,10 @@ public class Health : MonoBehaviour
 
     // appelé par la personne qui tape
     public void getHit(int dmg) {
+        if(hit_emitter !=null) {
+            hit_emitter.Play();
+        }
+        
         currentHP -= dmg;
         checkHealth();
     }
