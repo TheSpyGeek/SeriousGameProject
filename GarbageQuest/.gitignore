@@ -40,3 +40,4 @@ Temp/
 Library/*
 .vscode/
 fmod_editor.log
+Build/
