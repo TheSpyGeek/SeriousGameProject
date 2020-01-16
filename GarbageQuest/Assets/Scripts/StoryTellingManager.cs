@@ -9,11 +9,18 @@ public class StoryTellingManager : MonoBehaviour
     public float timeBetweenTextBox;
     private int current;
 
+    public float waitTimeStart = 2.0f;
+
     private bool done;
 
     // Start is called before the first frame update
     void Start(){
         current = 0;
+        StartCoroutine(waitStart());
+    }
+
+    IEnumerator waitStart() {
+        yield return new WaitForSeconds(waitTimeStart);
         if(current < arrayTextBox.Length) {
             StartCoroutine(displayTextBox(arrayTextBox[current], timeBetweenTextBox));
         }

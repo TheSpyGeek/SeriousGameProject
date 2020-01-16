@@ -13,6 +13,8 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(loadNextScene(SceneManager.GetActiveScene().buildIndex + 1));
 	}
 
+
+
     IEnumerator loadNextScene(int index) {
         transition.SetTrigger("Change");
 
