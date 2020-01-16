@@ -187,7 +187,6 @@ GameObject:
   - component: {fileID: 8668050695161545849}
   - component: {fileID: 8668050695160251481}
   - component: {fileID: 8668050695159252633}
-  - component: {fileID: 5045447444970425672}
   - component: {fileID: 8668050695170583449}
   - component: {fileID: 4370213191868871787}
   - component: {fileID: 8311183649182925788}
@@ -195,8 +194,9 @@ GameObject:
   - component: {fileID: 5442987702135608584}
   - component: {fileID: 2175269405752007045}
   - component: {fileID: 9179226047784798407}
+  - component: {fileID: 3122400828684306456}
   m_Layer: 10
-  m_Name: Enemy PlasticBottle
+  m_Name: Enemy Plastic Bottle
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -263,20 +263,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5045447444970425672
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8668050695161190489}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: bfe4bd7ca2c7a254dbc9bcd23bb71cbe, type: 3}
 --- !u!95 &8668050695170583449
 Animator:
   serializedVersion: 3
@@ -326,6 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nbHealthPoint: 2
   timeToRespawn: 0
+  hit_emitter: {fileID: 0}
 --- !u!114 &5789417201924255881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,3 +371,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   velocityDiviser: 0.2
+--- !u!65 &3122400828684306456
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668050695161190489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 0.18000005, z: 1.8453231}
+  m_Center: {x: 0, y: -1.0990405e-15, z: 0.92266166}

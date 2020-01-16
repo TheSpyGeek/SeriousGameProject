@@ -46,6 +46,29 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 20
   OverrideMaxDistance: 40
+--- !u!114 &1339382723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391615980206160222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Carton Destroy
+  PlayEvent: 2
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 1
+  Preload: 1
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 20
+  OverrideMaxDistance: 40
 --- !u!1001 &7717790368004628743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61,17 +84,17 @@ PrefabInstance:
     - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.32
+      value: 12.54
       objectReference: {fileID: 0}
     - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.49
+      value: -10.47
       objectReference: {fileID: 0}
     - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.37
+      value: -15.32
       objectReference: {fileID: 0}
     - target: {fileID: 8668050695161545849, guid: 648c5bc2c4b64b142877781ea6c12fe6,
         type: 3}
@@ -123,11 +146,6 @@ PrefabInstance:
       propertyPath: hit_emitter
       value: 
       objectReference: {fileID: 1827253789}
-    - target: {fileID: 5045447444970425672, guid: 648c5bc2c4b64b142877781ea6c12fe6,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300000, guid: 8cdf52bef3c7c874498d5def25a35bbf, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648c5bc2c4b64b142877781ea6c12fe6, type: 3}
 --- !u!1 &1391615980206160222 stripped
