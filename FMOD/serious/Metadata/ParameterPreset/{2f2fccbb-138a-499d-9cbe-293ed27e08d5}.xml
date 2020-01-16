@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{2f2fccbb-138a-499d-9cbe-293ed27e08d5}">
+		<property name="name">
+			<value>Boss_type_1</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae3720a-3374-4992-a1b7-0bfb929ce217}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cd07f1c5-80b6-4c94-9562-b55090740fb6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cd07f1c5-80b6-4c94-9562-b55090740fb6}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Exist</value>
+			<value>Not Exist</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

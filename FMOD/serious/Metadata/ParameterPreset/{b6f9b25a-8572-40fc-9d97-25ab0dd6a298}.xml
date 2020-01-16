@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{b6f9b25a-8572-40fc-9d97-25ab0dd6a298}">
+		<property name="name">
+			<value>Ennemy_type_2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae3720a-3374-4992-a1b7-0bfb929ce217}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7fd28360-258f-4224-8526-2cf82a592979}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7fd28360-258f-4224-8526-2cf82a592979}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Exist</value>
+			<value>Not Exist</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

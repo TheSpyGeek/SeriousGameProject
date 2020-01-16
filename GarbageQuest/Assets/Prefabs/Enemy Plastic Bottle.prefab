@@ -188,7 +188,6 @@ GameObject:
   - component: {fileID: 8668050695160251481}
   - component: {fileID: 8668050695159252633}
   - component: {fileID: 5045447444970425672}
-  - component: {fileID: 8668050695170583449}
   - component: {fileID: 4370213191868871787}
   - component: {fileID: 8311183649182925788}
   - component: {fileID: 5789417201924255881}
@@ -196,7 +195,7 @@ GameObject:
   - component: {fileID: 2175269405752007045}
   - component: {fileID: 9179226047784798407}
   m_Layer: 10
-  m_Name: Enemy PlasticBottle
+  m_Name: Enemy Plastic Bottle
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,25 +276,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bfe4bd7ca2c7a254dbc9bcd23bb71cbe, type: 3}
---- !u!95 &8668050695170583449
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8668050695161190489}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: bfe4bd7ca2c7a254dbc9bcd23bb71cbe, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!54 &4370213191868871787
 Rigidbody:
   m_ObjectHideFlags: 0
