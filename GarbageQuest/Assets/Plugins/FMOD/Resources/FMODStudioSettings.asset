@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 0
+  HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: E:/Project/SeriousGameProject/FMOD/serious/serious.fspro
-  SourceBankPathUnformatted: E:/Project/SeriousGameProject/FMOD/serious
+  SourceBankPathUnformatted: E:/Project/SeriousGameProject/FMOD/serious/Build
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
     Value: 0
   BankDirectorySettings:
   - Platform: 2
-    Value: 
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 1
     Value: 1024
