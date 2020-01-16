@@ -34,6 +34,7 @@ public class Throwable : MonoBehaviour
         transform.localPosition = offset;
         transform.rotation = t.rotation;
         _rigid.velocity = Vector3.zero;
+        _rigid.angularVelocity = Vector3.zero;
         _rigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ  ;
         grabbed = true;
         canvas.SetActive(false);

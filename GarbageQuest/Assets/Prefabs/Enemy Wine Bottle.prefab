@@ -152,6 +152,11 @@ PrefabInstance:
       propertyPath: hit_emitter
       value: 
       objectReference: {fileID: 905517903}
+    - target: {fileID: 2175269405752007045, guid: 648c5bc2c4b64b142877781ea6c12fe6,
+        type: 3}
+      propertyPath: offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 648c5bc2c4b64b142877781ea6c12fe6, type: 3}
 --- !u!1 &2391486356224802775 stripped
