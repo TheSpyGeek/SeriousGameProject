@@ -131,6 +131,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3cbb8b20-a42d-45ad-b557-a5cb134e3c22}">
+		<property name="name">
+			<value>porte ouverture 2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{8197d577-a1a3-47c1-83e7-437ed0149e16}</destination>
 		</relationship>
