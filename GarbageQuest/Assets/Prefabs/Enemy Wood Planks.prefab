@@ -211,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 5166112469378732925}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children:
   - {fileID: 1722032641380377516}
   m_Father: {fileID: 0}
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   matAlive: {fileID: 2100000, guid: bc7843fb9278e3b40adfdb71a15d7df7, type: 2}
-  matDead: {fileID: 2100000, guid: 7f02b4164aca119459bd35e2ed7d570e, type: 2}
+  matDead: {fileID: 2100000, guid: 3d6b353bb750ff04685f4ed57f8a931f, type: 2}
   _health: {fileID: 5525332607563548920}
 --- !u!114 &2434958909438399137
 MonoBehaviour:

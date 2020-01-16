@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   matAlive: {fileID: 2100000, guid: bc7843fb9278e3b40adfdb71a15d7df7, type: 2}
-  matDead: {fileID: 2100000, guid: 7f02b4164aca119459bd35e2ed7d570e, type: 2}
+  matDead: {fileID: 2100000, guid: 6183d4f0705075023badc4a7fcfc72eb, type: 2}
   _health: {fileID: 5800685504972737830}
 --- !u!114 &4460663949790189439
 MonoBehaviour:

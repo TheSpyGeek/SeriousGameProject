@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 028c5c238d57b424594e70afe570f027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: {fileID: 0}
+  type: {fileID: 721112260113701485}
   gameState: {fileID: 0}
 --- !u!65 &8843738443281505311
 BoxCollider:
