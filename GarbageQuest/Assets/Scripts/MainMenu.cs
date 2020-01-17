@@ -13,6 +13,11 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(loadNextScene(SceneManager.GetActiveScene().buildIndex + 1));
 	}
 
+    public void PlayGameDonjon() {
+        StartCoroutine(loadNextScene(2));
+    }
+
+
 
 
     IEnumerator loadNextScene(int index) {

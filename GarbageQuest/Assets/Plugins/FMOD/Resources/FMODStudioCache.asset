@@ -23,6 +23,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 520
+--- !u!114 &-8226782349903616568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 1
 --- !u!114 &-7315295364226845445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,7 +60,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -1384179166258745822}
+  - {fileID: -8226782349903616568}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -107,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637148182160864132
+  lastModified: 637148218618812589
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -129,7 +146,7 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3946798549376611871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,7 +209,7 @@ MonoBehaviour:
   Min: 0
   Max: 11
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,7 +241,7 @@ MonoBehaviour:
   - {fileID: 5404357149099293526}
   StringsBanks:
   - {fileID: -5595698470482829237}
-  stringsBankWriteTime: 637148182160864132
+  stringsBankWriteTime: 637148218618812589
   cacheVersion: 3
 --- !u!114 &286519948066488288
 MonoBehaviour:
@@ -249,6 +266,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 888
+--- !u!114 &2181482372577271264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Ennemy_type_1
+  m_EditorClassIdentifier: 
+  Name: Ennemy_type_1
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 1
 --- !u!114 &2601560150285222815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,7 +322,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &3732665310823067894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,8 +343,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -4595889575341447543}
-  - {fileID: 3291172337477963946}
+  - {fileID: 8151869645990064930}
+  - {fileID: 2181482372577271264}
   MinDistance: 1
   MaxDistance: 20
   Length: 101997
@@ -328,7 +362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: E:/Project/SeriousGameProject/FMOD/serious/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637148214267117365
+  lastModified: 637148218618802595
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -357,3 +391,20 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9996
+--- !u!114 &8151869645990064930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
