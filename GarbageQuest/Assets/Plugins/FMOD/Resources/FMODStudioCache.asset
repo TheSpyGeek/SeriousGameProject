@@ -40,6 +40,26 @@ MonoBehaviour:
   Max: 11
   Default: 0
   Exists: 1
+--- !u!114 &-8133529281753804167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: /home/thibault/Projets/SeriousGameProject/FMOD/serious/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637147909020000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1290
+  Exists: 1
 --- !u!114 &-7315295364226845445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,6 +107,31 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1996
+--- !u!114 &-6535266736426013632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Combat adaptatif
+  m_EditorClassIdentifier: 
+  Path: event:/Combat adaptatif
+  guid: cc938e269c2bff4e9681c598fffbc7b3
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -555289534735231918}
+  - {fileID: -3606053448092037149}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 101997
 --- !u!114 &-5926813485478143277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +175,30 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1290
   Exists: 1
+--- !u!114 &-4845704001919253475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Combat
+  m_EditorClassIdentifier: 
+  Path: event:/Combat
+  guid: addf4e718eacc94e9d804651a5860047
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6881338209874784035}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4595889575341447543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +262,46 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1491
+--- !u!114 &-3606053448092037149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Ennemy_type_1
+  m_EditorClassIdentifier: 
+  Name: Ennemy_type_1
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 1
+--- !u!114 &-1690144217450927653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Win
+  m_EditorClassIdentifier: 
+  Path: event:/Win
+  guid: 7a3ef30f1e05cf4e9b5a0f32ec261690
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1996
 --- !u!114 &-1384179166258745822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +319,46 @@ MonoBehaviour:
   Max: 11
   Default: 0
   Exists: 0
+--- !u!114 &-555289534735231918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat adaptatif/Type Combat
+  m_EditorClassIdentifier: 
+  Name: Type Combat
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &-175725053161177278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Village
+  m_EditorClassIdentifier: 
+  Path: event:/Village
+  guid: f286bf3c56e9ff4cabe6c19519a3ff88
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38002
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,26 +372,49 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5595698470482829237}
-  - {fileID: 5404357149099293526}
+  - {fileID: -8133529281753804167}
+  - {fileID: 6284913104673434368}
   EditorEvents:
-  - {fileID: -3871283015693315828}
-  - {fileID: -3946798549376611871}
-  - {fileID: 2601560150285222815}
-  - {fileID: -6571898627070990531}
-  - {fileID: 7587270701105473999}
-  - {fileID: 286519948066488288}
-  - {fileID: -7315295364226845445}
-  - {fileID: 3732665310823067894}
-  - {fileID: -5926813485478143277}
-  - {fileID: -8645839595095760296}
+  - {fileID: 1173176859888320730}
+  - {fileID: 426267001097693660}
+  - {fileID: 204639422883345123}
+  - {fileID: -1690144217450927653}
+  - {fileID: 1200616199286630765}
+  - {fileID: 4330267925030764559}
+  - {fileID: -4845704001919253475}
+  - {fileID: -6535266736426013632}
+  - {fileID: -175725053161177278}
+  - {fileID: 2227386051487643284}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5404357149099293526}
+  - {fileID: 6284913104673434368}
   StringsBanks:
-  - {fileID: -5595698470482829237}
-  stringsBankWriteTime: 637148218618812589
+  - {fileID: -8133529281753804167}
+  stringsBankWriteTime: 637147909020000000
   cacheVersion: 3
+--- !u!114 &204639422883345123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carton Destroy
+  m_EditorClassIdentifier: 
+  Path: event:/Carton Destroy
+  guid: 6d02aaf2afd5974596f6da78e2fa724a
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
 --- !u!114 &286519948066488288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,6 +438,75 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 888
+--- !u!114 &426267001097693660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hit Carton
+  m_EditorClassIdentifier: 
+  Path: event:/Hit Carton
+  guid: 68309291bca25841b90f1feb68db618e
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 119
+--- !u!114 &1173176859888320730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Porte
+  m_EditorClassIdentifier: 
+  Path: event:/Porte
+  guid: 3e827446d338c54c91fb9bc5d153276b
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1491
+--- !u!114 &1200616199286630765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lose
+  m_EditorClassIdentifier: 
+  Path: event:/Lose
+  guid: 806db69c37c7604dbabe18d9921afc4c
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9996
 --- !u!114 &2181482372577271264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,6 +524,29 @@ MonoBehaviour:
   Max: 2
   Default: 1
   Exists: 1
+--- !u!114 &2227386051487643284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hit Verre
+  m_EditorClassIdentifier: 
+  Path: event:/Hit Verre
+  guid: fa840f492d48d941b9e9e4bd1d048acf
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 520
 --- !u!114 &2601560150285222815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,6 +612,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 101997
+--- !u!114 &4330267925030764559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Verre Destroy
+  m_EditorClassIdentifier: 
+  Path: event:/Verre Destroy
+  guid: 83a667ef9bcb4842ac87f448e1713c4e
+  Banks:
+  - {fileID: 6284913104673434368}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 888
 --- !u!114 &5404357149099293526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,6 +654,43 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1481248
+  Exists: 1
+--- !u!114 &6284913104673434368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: /home/thibault/Projets/SeriousGameProject/FMOD/serious/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637148240410000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1481248
+  Exists: 1
+--- !u!114 &6881338209874784035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Combat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 11
+  Default: 0
   Exists: 1
 --- !u!114 &7587270701105473999
 MonoBehaviour:
