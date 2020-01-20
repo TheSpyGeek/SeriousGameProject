@@ -2,13 +2,13 @@
 
 
 
-1. ## Title Page
+## Title Page
 
-   1. **Game Name**
+   1. **Garbage Quest**
 
-      
 
-      
+
+
 
 2. ## Game Overview
 
@@ -18,98 +18,97 @@
 
    3. **Target Audience**
 
-      * Personnes sensible à l'Ecologie qui veulent en apprendre plus sur ce sujet la tout en s'amusant
+      * Dans l'idéal : tout le monde
+      * En réalité: les adolescents et les jeunes adultes
 
+      * Personnes sensible à l'Ecologie qui veulent en apprendre plus sur ce sujet la tout en s'amusant
       * Personnes sensible à l'Ecologie qui veulent sensibiliser leur entourage de manière ludique
 
-   4. **Game Flow Summary** : 
+   4. **Game Flow Summary** :
 
-      Le joueur contrôle un personnage principal. Qui peut se déplacer dans 4 directions. Il peut intéragir  avec des NPC dans le monde. Menu (options, inventaire, mini-map)
+      Le joueur contrôle un personnage principal. Qui peut se déplacer dans 4 directions. Il peut intéragir  avec des NPC dans le monde. Il va se balader dans les donjons afin de faire d'arriver à son but et faire avancer l'histoire.
 
    5. **Look and Feel** : Style cell-shading => Zelda Wind Waker
 
-      
+
 
 3. ## Gameplay and Mechanics
 
    1. Gameplay
 
-      1. **Game Progression** : 
+      1. **Game Progression** :
 
          ​	Le joueur débloque une mécanique dans un donjon afin de vaincre des nouveaux déchets qu'il n'avait jamais rencontré avant. Le joueur doit comprendre le dilemne lié à l'écologie.
 
-         Plus le monde évolue en havre écologique => **Avidité**
+         Plus le monde évolue en havre écologique =>
 
-         * plus les prix du marchant sont élevés
          * des gens quittent la ville => maisons en ruine/abandonnées
-         * on importe plus de nourriture
+         * les agriculteurs sont en difficulté
          * des gens sont au chomage
 
-         A contrario :
+A contrario :
 
-         * l'agriculture repart
+* l'agriculture repart et est plus saine
          * les gens se sentent mieux car il y a moins de pollution => heureux
-         * Les aliments rendent + de vie
+         * Les aliments sont meilleurs
 
-      2. **Mission/challenge Structure**
+2. **Mission/challenge Structure**
 
-         Plusieurs donjon pour arriver à la fin du jeu
+   Plusieurs donjon pour arriver à la fin du jeu
 
-         Boss à la fin des donjons
+   Boss à la fin des donjons
 
-      3. **Puzzle Structure**
+3. **Puzzle Structure**
 
-      4. **Objectives** : 
+4. **Objectives** :
 
-         Rendre le monde moins pollué en le nettoyant étape par étape (cf: Donjon)
+   Rendre le monde moins pollué en le nettoyant étape par étape (cf: Donjon)
 
-      5. **Play Flow** :
+5. **Play Flow** :
 
-         Le joueur débute avec des mécaniques simples (exemple: juste poser un déchet dans une poubelle). Plus l'histoire avance plus le joueur débloque des élements de gameplay (exemple: compacter, mettre au composte, ...) 
+   Le joueur débute avec des mécaniques simples (exemple: juste poser un déchet dans une poubelle). Plus l'histoire avance plus le joueur débloque des élements de gameplay (exemple: compacter, mettre au composte, trier ses dechets, ...)
 
-   2. Mechanics
+2. Mechanics
 
-      1. **Physics** : Il y a un système de lancer d'objet, les ennemis sont projetés après avoir pris un coup
-      2. **Movement in the game** : 
+   1. **Physics** : Il y a un système de lancer d'objet, les ennemis sont projetés après avoir pris un coup
+      2. **Movement in the game** :
          * mouvement simple quadri-directionnel + diagonales
-         * roulades
+         * rotation du personnage
       3. **Objects** : pour rammasser un objet le joueur doit s'approcher de cet objet et doit appuyer sur un bouton E.
-      4. **Actions** : 
-         * rammasser des déchets 
-         * attaquer un mob (déchets vivants) 
+      4. **Actions** :
+         * rammasser des déchets
+         * attaquer un mob (déchets vivants)
          * vider ses poubelles
-         * lancer des enemis
+         * lancer des ennemis
       5. **Combat** le joueur possède plusieurs armes, plus ou moins efficace selon le type de déchets (ennemis), lancer des objets (exemple: déchets, rocher)
       6. **Economy**
       7. **Screen Flow** : la caméra suit le personnage en vue du dessus. Elle se bloque sur les coins de la map. Les donjons nécessite un chargement du coup un changement d'écran.
 
-   3. **Game Options** :
+3. **Game Options** :
 
-      Difficulté (Easy, medium, hard, no save mod) : affecte le nombre de point de vie des ennemis et les dégats que le joueur encaisse.
+   Difficulté (Easy, medium, hard, no save mod) : affecte le nombre de point de vie des ennemis et les dégats que le joueur encaisse.
 
-   4. **Replaying and Saving** : 
+4. **Replaying and Saving** :
 
-      Le joueur peut sauvegarder à tout moment mais au chargement du jeu, le personnage commencera à la dernière porte (chargement) passé.
+   Le joueur peut sauvegarder à tout moment mais au chargement du jeu, le personnage commencera à la dernière porte (chargement) passée.
 
-   5. **Cheats and Easter Eggs** :  We will see later
 
-      
 
 4. ## Story, Settings and Character
 
    1. **Story and Narrative** :
 
-      ​	L'histoire se déroule dans un petit village "EcoTree". 
+      ​	L'histoire se déroule dans un petit village "PeaceTown".
 
       **Intro**:
 
-      Le personnage se reveille dans sa maison. Il lit un message (SMS ?) laissé par sa mère lui disant d'aller chez son grand-père. 
+      Le personnage se reveille dans sa maison. Il lit un message (SMS ?) laissé par sa mère lui disant d'aller chez son grand-père.
 
       (**Training Level**) Il va donc sortir et se diriger vers chez son grand père. Pour cela, il va traverser le village dans lequel il y a **énormement** de déchets et avec un air très pollué. Arrivé chez son grand père, il va discuter avec lui et se rendre compte que son grand père ne va pas bien du tout. Il tousse, a du mal à respirer et trouve que sa nourriture a un drôle de goût.
 
-      
 
-      Quand le PP (personnage principal) sort de la maison, il va entendre une voix. 
+
+      Quand le PP (personnage principal) sort de la maison, il va entendre une voix.
 
       * Tu as remarqué à quel point ton grand-père est malade?
       * Hein!? Qui es-tu ? demande le PP
@@ -119,23 +118,23 @@
       * Comment est-ce possible?
 
       * Je me suis incarné en cet être car l'heure est grave et je devais agir. Mais ce n'est pas important. Tu as vu que ton grand père souffrait à cause de cette pollution dans ton village?
-      
+
    * Oui j'ai remarqué mais il n'est plus tout jeune c'est normal.
 
    (le PP avance jusqu'au village, quand il y arrive)
 
    * Ce n'est pas le seul regarde les habitants du village! Tu ne trouves pas qu'il y a des problèmes!? Si vous ne faites rien ton grand père va mourrir et les gens du village vont tomber gravement malade aussi.
-     
+
       * Mais qu'est ce que je peux faire pour arrêter ça?
-      
+
    * Rend toi à la centrale de charbon.
-     
-     
-     
+
+
+
 
    "Transition (fondu au noir) pour se retrouver devant la centrale"
 
-   * Regarde ce nuage de fumé. C'est ce qui rend tout le monde malade. Cette fumé rend les dechets vivant ! 
+   * Regarde ce nuage de fumé. C'est ce qui rend tout le monde malade. Cette fumé rend les dechets vivant !
 
    ("cinématique" : les dechets prennent vie)
 
@@ -145,77 +144,75 @@
 
       Tutoriel du combat
 
-      
-
-      
 
 
-   **Dilemne** : 
 
-   ​	**Themes généraux** : 
+
+
+   **Dilemne** :
+
+   ​	**Themes généraux** :
 
    * Economique
       * Touristique
 
-   1. Fermeture de la centrale à charbon : 
+   1. Fermeture de la centrale à charbon :
 
-      **positif** : 
+      **positif** :
 
       * l'air est moins pollué
         * les gens vont mieux
 
-      **negatif** : 
+      **negatif** :
 
       * pleins de gens se retrouve au chomâge
       * moins d'électricité
         * installation de panneaux solaires qui attire moins de gens pour le tourisme
 
-   2. Le tri
+   2. Le tri selectif
 
       **Avant** : Il y a une énormes décharges qui pollue la terre et l'eau du lac
 
-      ​	=> les gens sont malades à cause des aliments 
+      ​	=> les gens sont malades à cause des aliments
 
-      **positif** : 
+      **positif** :
 
       * la décharge a beaucoup diminuée de volume
       * des poubelles de tri sont apparues
       * crée des emplois
 
-      **negatif** : 
+      **negatif** :
 
       * centrale de tri
       * Argent public utilisé pour le tri (augmentation des taxes)
 
    3. Suppression des pesticides
 
-      **Avant** : 
-
-      **positif** : 
+      **positif** :
 
       * les aliments sont de meilleurs qualité
-      * l'eau est plus potable
+      * l'eau est meilleure pour la santé
       * moins de nourriture est importé
       * les gens sont plus gentil
 
-      **negatif** : 
+      **negatif** :
 
-      * moins de production
+      * moins de production de fruits et légumes
       * les produits de traitement sont plus cher => les produits sont plus cher
 
-   1. **Game World** : 
+   1. **Game World** :
 
-      Il y  a un village qui est central dans le monde. Il y a plusieurs donjon correspondant aux différentes zones du jeu => problèmatique de l'écologie.
+      Il y  a un village qui est central dans le monde. Il y a plusieurs donjons correspondant aux différentes zones du jeu => problèmatique de l'écologie.
 
-   2. **Characters** : 
+   2. **Characters** :
 
-      **Personnage principal** : il parle aux habitants, il est plutot jeune, vacciné et insouciant.
+      **Personnage principal** : il parle aux habitants, il est plutot jeune et insouciant.
 
-      **NPC** : Il y a un medecin, un maire, un fermier (possède un bac à composte), un réparateur, une école. 
+      **NPC** : Il y a un medecin, un maire, un fermier (possède un bac à composte), un réparateur, une école.
 
       Des animaux dans la ville.
 
-   
+
 
 5. ## Levels
 
@@ -231,7 +228,7 @@
 
       Le grand père vous donne comme mission de nettoyer sa maison.
 
-   
+
 
 6. ## Interface
 
@@ -245,7 +242,7 @@
         * la liste des outils que le joueur possède
         * Carte du monde (mise à jour selon les zones explorées)
 
-   2. **Control System** : 
+   2. **Control System** :
 
       * Boutons de déplacement (ZQSD, Stick manette)
       * Bouton USE (E, X sur manette)
@@ -263,11 +260,11 @@
       * musique très calme dans le village
       * Une musique par donjon
 
-   4. **Help System** : 
+   4. **Help System** :
 
-      L'aide est matérialisée par un petit être vert qui incarne la nature. Qui nous donne des conseils pour la suite des évenements. 
+      L'aide est matérialisée par un petit être vert qui incarne la nature. Qui nous donne des conseils pour la suite des évenements.
 
-   
+
 
 7. ## Artificial Intelligence
 
@@ -277,23 +274,23 @@
 
    3. Support AI
 
-   
+
 
 8. ## Technical
 
-   1. **Target Hardware** : 
+   1. **Target Hardware** :
 
-      PC, 
+      PC,
 
-   2. **Development hardware and software, including Game Engine** : 
+   2. **Development hardware and software, including Game Engine** :
 
       Unity Engine
 
-   3. **Network requirements** : 
+   3. **Network requirements** :
 
       Internet n'est pas nécessaire pour jouer
 
-   
+
 
 9. ## Game Art
 
