@@ -42,3 +42,4 @@ Library/*
 fmod_editor.log
 Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
 Build/
+Assets/StreamingAssets/E:*
