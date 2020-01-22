@@ -31,7 +31,7 @@
    Plus le monde évolue en havre écologique et plus : 
 
    - Des NPC quittent la ville : maisons en ruine/abandonnées
-   - Des NPC agriculteurs sont en difficulté
+   - Des NPC agriculteurs sont en difficultés
    - Des NPC sont au chômage
 
    A contrario :
@@ -42,7 +42,7 @@
 
 2. **Structure des missions / challenges**
 
-   Plusieurs donjon pour arriver à la fin du jeu avec des boss à la fin de chaque donjons
+   Plusieurs donjon pour arriver à la fin du jeu avec des boss à la fin de chaque donjon
 
 3. **Objectifs** :
 
@@ -60,13 +60,13 @@
    3. **Objets** : pour ramasser un objet le joueur doit s'approcher de cet objet et doit appuyer sur le bouton E.
    4. **Actions** :
       * Ramasser des déchets
-      * Attaquer un mob (déchets vivants)
+      * Attaquer un monstre (déchets vivants)
       * Vider ses poubelles
       * Lancer des ennemis dans des poubelles
    5. **Combat** le joueur possède plusieurs armes, plus ou moins efficaces selon le type de déchets (ennemis) :
       - Lancé d'objets (déchets, rocher)
       - Frappe
-6. **Screen Flow** : La caméra suit le personnage en vue du dessus. Elle se bloque sur les coins de la carte. Les donjons nécessite un chargement du coup un changement d'écran à chaque donjons.
+6. **Screen Flow** : La caméra suit le personnage en vue du dessus. Elle se bloque sur les coins de la carte. Les donjons nécessitent un chargement du coup un changement d'écran à chaque donjon.
 7. **Options** : Difficulté (Easy, medium, hard, no save mod) : affecte le nombre de points de vie des ennemis et les dégâts que le joueur peut encaisser.
 8. **Sauvegarde** : Le joueur peut sauvegarder à tout moment mais au chargement du jeu, le personnage commencera à la dernière porte (chargement) passée.
 
@@ -81,25 +81,25 @@
      Quand le PP (personnage principal) sort de la maison, il va entendre une voix.
 
    - Tu as remarqué à quel point ton grand-père est malade?
-   - Hein!? Qui es-tu ? demande le PP
-   - "Je suis la nature!" lui répond un petit être vert
+   - Hein !? Qui es-tu ? demande le PP
+   - "Je suis la nature !" lui répond un petit être vert
    - Comment est-ce possible?
    - Je me suis incarné en cet être car l'heure est grave et je devais agir. Mais ce n'est pas important. Tu as vu que ton grand père souffrait à cause de cette pollution dans ton village?
    - Oui j'ai remarqué mais il n'est plus tout jeune c'est normal.
    
    (le PP avance jusqu'au village, quand il y arrive)
    
-   - Ce n'est pas le seul regarde les habitants du village! Tu ne trouves pas qu'il y a des problèmes!? Si vous ne faites rien ton grand père va mourir et les gens du village vont tomber gravement malade aussi.
-   - Mais qu'est ce que je peux faire pour arrêter ça?
+   - Ce n'est pas le seul regarde les habitants du village! Tu ne trouves pas qu'il y a des problèmes !? Si vous ne faites rien ton grand père va mourir et les gens du village vont tomber gravement malade aussi.
+   - Mais qu'est ce que je peux faire pour arrêter ça ?
    - Rend toi à la centrale de charbon.
    
    "Transition (fondu au noir) pour se retrouver devant la centrale"
    
-   - Regarde ce nuage de fumé. C'est ce qui rend tout le monde malade. Cette fumé rend les dechets vivant !
+   - Regarde ce nuage de fumée. C'est ce qui rend tout le monde malade. Cette fumé rend les déchets vivants !
    
    ("cinématique" : les déchets prennent vie)
    
-   - Tu as raison je dois arrêter ça!
+   - Tu as raison je dois arrêter ça !
    
    **Phase de gameplay** : Tutoriel du combat
 
@@ -119,7 +119,7 @@
 
             - **Avant** : 
 
-                  - Il y a une énormes décharge qui pollue la terre et l'eau du lac
+                  - Il y a une énorme décharge qui pollue la terre et l'eau du lac
 
                * Les NPC sont malades à cause des aliments
 
@@ -132,7 +132,7 @@
          - **Négatif** :
 
            - Centrale de tri
-           - Argent publique utilisé pour le tri (augmentation des taxes)
+           - Argent public utilisé pour le tri (augmentation des taxes)
 
    - **Suppression des pesticides** :
 
@@ -163,9 +163,8 @@
 * Le monde évolue à chaque fois qu'un donjon est terminé par le joueur. (**Exemple**: après le premier donjon, des poubelles de tri apparaissent dans le village)
   
 * **Premier donjon** : lié au tri sélectif. Le personnage apprend à trier ses déchets, il possède 2 poubelles (sur lui, lié à son inventaire avec un nombre limité de place) à ce moment la du jeu. Il doit relancer l'usine de recyclage des déchets. Le donjon est composé principalement de déchets en carton, papier, boite de conserve, aluminium, verre, ...
-   * **Deuxième donjon** : Arrêter le traitement des terres avec des pesticides chimiques. Donjon composé principalement de plantes que l'on ne peut battre qu'en les traitants avec des pesticides biologiques.
-   * **Troisième donjon** : Le joueur doit enlever le plastique présent dans l'eau
-   
+* **Deuxième donjon** : Arrêter le traitement des terres avec des pesticides chimiques. Donjon composé principalement de plantes que l'on ne peut battre qu'en les traitants avec des pesticides biologiques.
+* **Troisième donjon** : Le joueur doit enlever le plastique présent dans l'eau.
 2. **Niveau d'entraînement** : Le grand père vous donne comme mission de nettoyer sa maison.
 
 ## Interface
@@ -193,10 +192,10 @@
 
    Musique : Style rétro
 
-   * Assez rapide en combat  (évolutive).
-   * Assez calme en temps normal
-   * Musique très calme dans le village
-   * Une musique par donjon
+   * Assez rapide en combat (évolutive).
+   * Assez calme en temps normal.
+   * Musique très calme dans le village.
+   * Une musique par donjon.
 
 4. **Aide** :
 
